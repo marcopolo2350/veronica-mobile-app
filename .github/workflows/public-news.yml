@@ -1,22 +1,32 @@
-name: Refresh approved public news
+name: Publish Veronica and refresh approved public news
 on:
+  push:
+    branches: [main]
   schedule:
     - cron: '17 */6 * * *'
   workflow_dispatch:
 permissions:
   contents: write
-concurrency: public-news
+  pages: write
+  id-token: write
+concurrency: veronica-pages
 jobs:
-  refresh:
+  publish:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - if: github.event_name != 'push'
+        uses: actions/setup-node@v4
         with:
           node-version: '24'
-      - run: node .github/scripts/refresh-public.mjs public-news.json
+      - if: github.event_name != 'push'
+        run: node .github/scripts/refresh-public.mjs public-news.json
       - name: Commit public metadata only
+        if: github.event_name != 'push'
         run: |
           git config user.name 'Veronica public feed'
           git config user.email 'public-feed@users.noreply.github.com'
@@ -25,3 +35,14 @@ jobs:
             git commit -m 'Refresh public-source headline metadata'
             git push
           fi
+      - uses: actions/configure-pages@v5
+      - name: Stage only public files
+        run: |
+          mkdir pages-output
+          cp app.js style.css Inter.ttf icon.png manifest.webmanifest index.html 404.html .nojekyll OFL.txt LICENSES.txt sw.js public-news.json source-coverage.json pages-output/
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: pages-output
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

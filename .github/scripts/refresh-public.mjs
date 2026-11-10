@@ -10,7 +10,14 @@ var PUBLIC_SOURCES = [
   { name: "Contract Pharma", url: "https://www.contractpharma.com/feed/" },
   { name: "BioPharma Dive", url: "https://www.biopharmadive.com/feeds/news/", signals: true },
   { name: "BioSpace business", url: "https://www.biospace.com/business.rss", signals: true },
-  { name: "GEN", url: "https://www.genengnews.com/feed/" }
+  { name: "GEN", url: "https://www.genengnews.com/feed/" },
+  { name: "FDA press releases", kind: "fda", country: "United States", signals: true, url: "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml" },
+  { name: "FDA drug news", kind: "fda", country: "United States", url: "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/drugs/rss.xml" },
+  { name: "FDA recalls", kind: "fda", country: "United States", signals: true, url: "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/recalls/rss.xml" },
+  { name: "FDA inspection records", kind: "fda", country: "United States", url: "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/ora-foia-electronic-reading-room/rss.xml" },
+  { name: "EMA news", kind: "fda", url: "https://www.ema.europa.eu/en/news.xml" },
+  { name: "MHRA news", kind: "fda", country: "United Kingdom", url: "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency.atom" },
+  { name: "openFDA drug approvals", type: "drug-approvals", browser: true, country: "United States", url: "https://api.fda.gov/drug/drugsfda.json?search=submissions.submission_type:ORIG+AND+submissions.submission_status:AP&sort=submissions.submission_status_date:desc&limit=80", terms: "https://open.fda.gov/apis/drug/drugsfda/" }
 ];
 var iso = (x) => {
   const d = new Date(x);
@@ -22,11 +29,25 @@ function parsePublic(text, source, now = (/* @__PURE__ */ new Date()).toISOStrin
   let rows = [];
   if (source.type === "federal") rows = JSON.parse(text).results.map((r) => ({ source_id: r.document_number, title: r.title, url: r.html_url, published_at: iso(r.publication_date), kind: "permits" }));
   else if (source.type === "fda") rows = JSON.parse(text).results.map((r) => ({ source_id: r.recall_number, title: `${r.recalling_firm}: ${r.product_description}`.slice(0, 280), url: "https://www.accessdata.fda.gov/scripts/ires/?Event=" + encodeURIComponent(r.event_id), published_at: iso(r.report_date?.replace(/^(\d{4})(\d{2})(\d{2})$/, "$1-$2-$3")), date_basis: "FDA report date", kind: "regulatory" }));
+  else if (source.type === "drug-approvals") rows = JSON.parse(text).results.flatMap((row) => {
+    if (!/^(NDA|BLA)\d+$/.test(row.application_number ?? "") || !row.sponsor_name) return [];
+    const original = (row.submissions ?? []).filter((item) => item.submission_type === "ORIG" && item.submission_status === "AP" && /^\d{8}$/.test(item.submission_status_date ?? "")).sort((a, b) => a.submission_status_date.localeCompare(b.submission_status_date))[0];
+    if (!original) return [];
+    const brands = [...new Set((row.products ?? []).map((product) => product.brand_name).filter(Boolean))];
+    return [{
+      source_id: row.application_number,
+      title: row.sponsor_name + " \xB7 FDA approval " + row.application_number + (brands.length ? ": " + brands.join(", ").slice(0, 100) : ""),
+      url: "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=" + row.application_number.slice(3),
+      published_at: iso(original.submission_status_date.replace(/^(\d{4})(\d{2})(\d{2})$/, "$1-$2-$3")),
+      date_basis: "FDA original approval date",
+      kind: "approval"
+    }];
+  });
   else {
     if (!/<(?:rss|feed|rdf:RDF)\b/i.test(text)) throw new Error("Endpoint did not return an RSS/Atom feed");
     rows = [...text.matchAll(/<(?:item|entry)(?:\s[^>]*)?>([\s\S]*?)<\/(?:item|entry)>/gi)].map(([, s]) => ({ title: tag(s, "title"), url: tag(s, "link") || /<link[^>]*href=["']([^"']+)/i.exec(s)?.[1], published_at: iso(tag(s, "pubDate") || tag(s, "dc:date") || tag(s, "published")), updated_at: iso(tag(s, "updated")), kind: "news" }));
   }
-  return rows.filter((r) => r.title && /^https?:\/\//.test(r.url ?? "")).slice(0, 80).map((r) => ({ ...r, connector: source.name, publisher: source.name, first_seen_at: now, ingested_at: now, public_source: true, date_basis: r.date_basis ?? "Source-supplied publication date", title: clean(r.title) }));
+  return rows.filter((r) => r.title && /^https?:\/\//.test(r.url ?? "")).slice(0, 80).map((r) => ({ ...r, kind: source.kind ?? r.kind, publisher_country: source.country ?? (source.type === "fda" || source.type === "federal" ? "United States" : null), connector: source.name, publisher: source.name, first_seen_at: now, ingested_at: now, public_source: true, date_basis: r.date_basis ?? "Source-supplied publication date", title: clean(r.title) }));
 }
 async function collectPublic(transport = fetch, { browser = false, now = (/* @__PURE__ */ new Date()).toISOString(), signal } = {}) {
   const records = [], sources = [];

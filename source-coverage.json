@@ -133,27 +133,27 @@
   },
   {
     "name": "FDA press releases",
-    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+    "status": "Public endpoint enabled; see last-attempt results"
   },
   {
     "name": "FDA drug news",
-    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+    "status": "Public endpoint enabled; see last-attempt results"
   },
   {
     "name": "FDA recalls",
-    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+    "status": "Public endpoint enabled; see last-attempt results"
   },
   {
     "name": "EMA news",
-    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+    "status": "Public endpoint enabled; see last-attempt results"
   },
   {
     "name": "MHRA news",
-    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+    "status": "Public endpoint enabled; see last-attempt results"
   },
   {
     "name": "FDA inspection records",
-    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+    "status": "Public endpoint enabled; see last-attempt results"
   },
   {
     "name": "FDA warning letters",
@@ -161,7 +161,7 @@
   },
   {
     "name": "openFDA drug approvals",
-    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+    "status": "Public endpoint enabled; see last-attempt results"
   },
   {
     "name": "openFDA drug recalls",
