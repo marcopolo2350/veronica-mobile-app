@@ -1,0 +1,27 @@
+name: Refresh approved public news
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: public-news
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: node .github/scripts/refresh-public.mjs public-news.json
+      - name: Commit public metadata only
+        run: |
+          git config user.name 'Veronica public feed'
+          git config user.email 'public-feed@users.noreply.github.com'
+          git add public-news.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh public-source headline metadata'
+            git push
+          fi

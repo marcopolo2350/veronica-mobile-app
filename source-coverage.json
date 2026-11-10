@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Google News",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "GDELT",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "Bing News",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "Google News life sciences",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "GDELT life sciences",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "Fierce Pharma manufacturing",
+    "status": "Public endpoint enabled; see last-attempt results"
+  },
+  {
+    "name": "Fierce Pharma",
+    "status": "Public endpoint enabled; see last-attempt results"
+  },
+  {
+    "name": "Contract Pharma",
+    "status": "Public endpoint enabled; see last-attempt results"
+  },
+  {
+    "name": "Pharma Manufacturing",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "BioProcess International",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "BioPharma Dive",
+    "status": "Public endpoint enabled; see last-attempt results"
+  },
+  {
+    "name": "BioSpace business",
+    "status": "Public endpoint enabled; see last-attempt results"
+  },
+  {
+    "name": "BioSpace deals",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "Endpoints News",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "STAT biotech",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "GEN",
+    "status": "Public endpoint enabled; see last-attempt results"
+  },
+  {
+    "name": "GEN bioprocessing",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "Pharmaceutical Technology",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "PharmTech",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "BioPharm International",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "MassBio news",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "Mass Life Sciences Center",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "PR Newswire biotech",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "Business Wire",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "NC Commerce",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "Texas Governor news",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "Pennsylvania DCED",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "Empire State Development",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "Choose New Jersey",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "Construction Dive",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "ENR",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "Boston Real Estate Times",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "Banker & Tradesman",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "FDA press releases",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "FDA drug news",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "FDA recalls",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "EMA news",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "MHRA news",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "FDA inspection records",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "FDA warning letters",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "openFDA drug approvals",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "openFDA drug recalls",
+    "status": "Public endpoint enabled; see last-attempt results"
+  },
+  {
+    "name": "openFDA device approvals",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "openFDA device clearances",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "EMA authorisations",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "Health Canada approvals",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "SEC EDGAR",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "SEC funding rounds",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "SEC officer changes",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "SEC 8-K current reports",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "SEC capital spending",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "Cambridge MA permits",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "NYC DOB permits",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "San Francisco permits",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "Chicago permits",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "Montgomery County MD permits",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "Boston permits",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "Raleigh permits",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "Durham NC permits",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "EPA ECHO pharma facilities",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "ClinicalTrials.gov Phase 3 starts",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "ClinicalTrials.gov Phase 3 completions",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "USAspending awards",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "Federal Register",
+    "status": "Public endpoint enabled; see last-attempt results"
+  },
+  {
+    "name": "EU TED tenders",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "UK Contracts Finder",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "NIH RePORTER",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "EU CORDIS projects",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "Greenhouse job boards",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "Lever job boards",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "WARN notices (California)",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "WARN notices (Texas)",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "WARN notices (New York)",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "WARN notices (North Carolina)",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "WARN notices (Washington)",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "WARN notices (Maryland)",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "WARN notices (Oregon)",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "WARN notices (Colorado)",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "WARN notices (Wisconsin)",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "WARN notices (Michigan)",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "WARN notices (Virginia)",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "WARN notices (Indiana)",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "WARN notices (Pennsylvania)",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  },
+  {
+    "name": "History backfill",
+    "status": "Not enabled in static public pipeline; desktop adapter remains backend-only/unported"
+  }
+]
