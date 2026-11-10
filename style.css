@@ -37,3 +37,4 @@ body{font:14px/1.45 Inter,"Segoe UI",system-ui,sans-serif;-webkit-font-smoothing
 @media(max-width:600px){#workspace>header .crumbs small{display:none}.overview-controls button{min-height:38px}.overview-card .overview-map{margin-top:8px}}
 fieldset{margin:10px 0;border:1px solid var(--line);border-radius:8px}fieldset label{display:inline-flex;align-items:center;gap:6px;margin:5px 12px 5px 0}#content label:has(input[type=file]),#content label:has(#passphrase){display:block;margin:10px 0}#passphrase{display:block;max-width:100%;width:340px;margin-top:6px}
  .original-image-view{overflow:auto}.original-image-view.full-size img{max-width:none;max-height:none;width:auto}.original-image-view+button{margin:5px 8px 5px 0}
+.feed-flags{grid-column:1/-1;display:flex;gap:10px;flex-wrap:wrap}.feed-flags label{display:flex;align-items:center;gap:6px}.feed-flags input{width:auto}.filters select{max-width:100%}
