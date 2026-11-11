@@ -53,7 +53,17 @@ async function collectPublic(transport = fetch, { browser = false, now = (/* @__
   const records = [], sources = [];
   for (const source of PUBLIC_SOURCES.filter((s) => !browser || s.browser)) {
     try {
-      const response = await transport(source.url, { signal: signal ?? AbortSignal.timeout(18e3), headers: { accept: source.type ? "application/json" : "application/rss+xml,application/atom+xml,application/xml,text/xml" }, credentials: "omit" });
+      let response;
+      for (let attempt = 0; attempt < 2; attempt++) {
+        const headers = { accept: source.type ? "application/json" : "application/rss+xml,application/atom+xml,application/xml,text/xml" };
+        if (!browser) headers["user-agent"] = "VeronicaPublicFeed/1.0 (+https://github.com/marcopolo2350/veronica-mobile-app)";
+        response = await transport(source.url, { signal: signal ?? AbortSignal.timeout(18e3), headers, credentials: "omit", cache: "no-store" });
+        if (response.ok || ![404, 408, 429, 500, 502, 503, 504].includes(response.status) || attempt === 1) break;
+        const retry = response.headers.get("retry-after");
+        if (retry && (!/^\d+$/.test(retry) || Number(retry) > 3)) break;
+        await response.body?.cancel();
+        await new Promise((resolve) => setTimeout(resolve, retry ? Math.max(1, Number(retry)) * 1e3 : 350));
+      }
       if (!response.ok) throw new Error(`HTTP ${response.status}${response.headers.get("retry-after") ? " \u2014 Retry-After " + response.headers.get("retry-after") : ""}`);
       const body = await response.text();
       if (body.length > 5e6) throw new Error("Response exceeds public-feed limit");
@@ -83,6 +93,10 @@ try {
 } catch {
 }
 var feed = await collectPublic();
+feed.sources = feed.sources.map((source) => {
+  const previous = prior?.sources?.find((row) => row.name === source.name);
+  return { ...source, last_ok_at: source.status !== "failed" ? source.at : previous?.last_ok_at ?? (previous?.status !== "failed" ? previous?.at : null) };
+});
 var map = new Map((prior?.records ?? []).map((r) => [r.id, r]));
 for (const r of feed.records) map.set(r.id, { ...r, first_seen_at: map.get(r.id)?.first_seen_at ?? r.first_seen_at });
 feed.records = [...map.values()];
