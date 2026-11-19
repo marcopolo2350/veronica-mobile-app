@@ -28,7 +28,7 @@ body{font:14px/1.45 Inter,"Segoe UI",system-ui,sans-serif;-webkit-font-smoothing
 .feed-toolbar{justify-content:space-between}.map-controls{margin:6px 0 10px}.map-controls label{display:flex;align-items:center;gap:5px;min-height:34px}
 .map-key{display:flex;gap:5px 14px;flex-wrap:wrap}.map-key i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px}
 .data-map [role=button]{cursor:pointer}.data-map [role=button]:hover{stroke:#fff;stroke-width:1.5}
-.map-controls+.data-map{touch-action:pan-y}.map-controls+.data-map[data-zoomed=true]{touch-action:none}
+.map-canvas .data-map{touch-action:none;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent}
 .gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:12px}
 .gallery-grid>section{min-width:0;margin-bottom:0}.gallery-grid h3{margin-top:0}.gallery-grid figure,.image-pair figure{margin:10px 0}
 .image-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.image-pair img{width:100%}
@@ -48,3 +48,239 @@ fieldset{margin:10px 0;border:1px solid var(--line);border-radius:8px}fieldset l
 @media(orientation:landscape) and (max-height:550px){.sat-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.sat-comparison-layout{grid-template-columns:minmax(0,1.4fr) minmax(180px,1fr)}.map-canvas svg.map{min-height:220px;max-height:65vh}.sat-heading{gap:6px}}
 .sat-heading>p{font-size:12px}.sat-tools{margin-top:14px;padding:0 2px;color:var(--muted);font-size:12px}.sat-heading+.panel{padding:10px;margin-bottom:12px}.sat-heading+.panel>p{font-size:11px;margin:8px 0 0}#message{font-size:12px;margin:7px 0}.sat-gallery .sat-preview img.evidence{object-fit:contain}
 .map-view-tabs{margin:0 0 10px}.map-view-tabs button{min-width:100px}.map-location-list{padding:10px 0;border-top:1px solid var(--line)}.map-location-list h3{font-size:13px;margin:3px 0}.map-location-list>p{font-size:12px;margin:0;padding:7px 0;border-bottom:1px solid #1d2c4066}.map-location-list span{display:block;color:var(--muted);font-size:10px}.map-location-list small{display:block;color:var(--muted)}.map-point-label{font-weight:650}.map-state-boundary{stroke-linejoin:round}.map-canvas svg.map{min-height:330px}@media(max-width:600px){.map-canvas svg.map{min-height:300px}.map-filter-panel .filters{grid-template-columns:repeat(3,minmax(0,1fr))}.map-filter-panel select{padding-left:5px;padding-right:3px;font-size:11px}.map-point-label{font-weight:700}}
+
+.nav-history{display:inline-flex;gap:4px;flex:none}
+.nav-history button{min-width:36px;height:34px;padding:0 10px;font-size:20px;line-height:1;border-radius:7px}
+.nav-history button:disabled{opacity:.35}
+.locked .nav-history{display:none}
+
+/* Global map redesign: summary tiles, heat legend, quieter rings */
+.map-summary{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin:0 0 10px}
+.map-tile{background:#0e1c2c;border:1px solid #1b2b40;border-radius:9px;padding:9px 11px;display:flex;flex-direction:column;gap:2px;min-width:0}
+.map-tile b{font-size:19px;color:#eef4fb}.map-tile span{font-size:11px;color:#8ea3bb;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.map-tile.tile-heat b{background:linear-gradient(90deg,#22c55e,#eab308,#ef4444);-webkit-background-clip:text;background-clip:text;color:transparent}
+.tile-reports{border-left:3px solid #f2c664}.tile-facilities{border-left:3px solid #60d6d1}.tile-projects{border-left:3px solid #9ab5ff}.tile-sites{border-left:3px solid #f29cce}.tile-heat{border-left:3px solid #ef4444}
+@media(max-width:640px){.map-summary{grid-template-columns:repeat(3,minmax(0,1fr))}.map-tile b{font-size:16px}}
+.heat-legend{margin:8px 0 4px;font-size:11px}
+.heat-scale{display:flex;align-items:center;gap:6px;margin:6px 0 2px}
+.heat-zero{width:18px;height:10px;border-radius:3px;background:#142d49;border:1px solid #5f7a99}
+.heat-bar{flex:1;height:10px;border-radius:6px}
+.heat-labels{display:grid;grid-template-columns:24px 1fr 1fr auto;font-size:10px;color:#8ea3bb}
+.heat-notes{margin:4px 0 0;font-size:10.5px}
+.data-map .marker-pulse{stroke-opacity:.55}
+.data-map [data-ring=far] .marker-pulse{opacity:.16;animation:none}
+.data-map [data-ring=mid] .marker-pulse{opacity:.28}
+.data-map .map-marker.selected .marker-pulse{opacity:.9;animation:none;stroke-width:2px}
+.data-map .layer-facilities .marker-count{font-weight:500;opacity:.85}
+.data-map .marker-count{font-weight:700}
+.data-map .heat-area{transition:fill .25s}
+.data-map{cursor:grab}.data-map:active{cursor:grabbing}
+@media(max-width:640px){.map-zoom-controls{gap:4px}.map-zoom-controls button{min-width:32px;height:30px;padding:0 8px;font-size:13px}}
+@media(max-width:640px){.map-zoom-controls button{min-height:30px;min-width:30px;padding:3px 7px;font-size:12px}}
+.heat-provisional{margin:4px 0;font-size:11px;color:#f2c664}.unlocated-list{margin:6px 0;font-size:11.5px}.unlocated-list summary{cursor:pointer;color:#9ab5ff}.same-place{color:#f2c664;font-size:12px}
+.meeting-evidence blockquote{margin:6px 0;padding:6px 10px;border-left:3px solid #9ab5ff;color:#c8d6e8;font-size:13px}
+
+/* MOB-MAP-P0: mobile map repair */
+.map-canvas svg.map{width:100%;min-height:300px;height:min(56vh,560px,95vw);max-height:none}
+.map-zoom-controls{top:52px;right:max(10px,env(safe-area-inset-right));gap:6px}
+.map-zoom-controls button,.map-zoom-controls button:where(*){min-width:44px;min-height:44px;width:44px;height:44px;padding:0;font-size:18px;line-height:1;border-radius:10px;touch-action:manipulation}
+@media(max-width:640px){.map-zoom-controls button{min-width:44px;min-height:44px;width:44px;height:44px;padding:0;font-size:18px}}
+.map-filter-panel{margin:10px 0}.map-filter-panel>summary{cursor:pointer;font-weight:600;padding:4px 0;min-height:32px}
+.map-render .map-key{margin:6px 0}
+.data-map .marker-hit,.data-map .marker-hit:hover{cursor:pointer;outline:none;stroke:none}.data-map .marker-hit:focus-visible{stroke:#fff;stroke-width:2px;vector-effect:non-scaling-stroke}
+.data-map .map-marker{filter:none}.data-map .marker-pulse{display:none}
+.data-map .marker-count{font-weight:700}
+.map-sheet{position:fixed;left:0;right:0;bottom:0;z-index:40;max-height:48vh;overflow:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;background:#0b1828;border-top:1px solid #2f74bd;border-radius:14px 14px 0 0;padding:10px max(14px,env(safe-area-inset-right)) calc(14px + env(safe-area-inset-bottom)) max(14px,env(safe-area-inset-left));box-shadow:0 -10px 28px #000a}
+.map-sheet .sheet-head{display:flex;align-items:center;justify-content:space-between;gap:10px;position:sticky;top:-10px;background:#0b1828;padding:4px 0 6px}
+.map-sheet h3{font-size:14px;margin:0;line-height:1.3}
+.map-sheet .sheet-close{min-width:44px;min-height:44px;font-size:16px;margin:0}
+.map-sheet .sheet-list{list-style:none;margin:0;padding:0}
+.map-sheet .sheet-row{display:grid;gap:2px;padding:8px 0;border-bottom:1px solid var(--line)}
+.map-sheet .sheet-kind{font-size:10px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+.map-sheet .sheet-link{font-size:14px;text-align:left;background:none;border:0;padding:0;margin:0;color:#9ab5ff;min-height:24px;overflow-wrap:anywhere}
+.map-sheet span.sheet-link{color:var(--text)}
+.map-sheet small{font-size:11px;color:var(--muted)}
+.map-sheet .same-place{font-size:12px;margin:4px 0}
+@media(min-width:900px){.map-sheet{position:absolute;left:auto;right:12px;bottom:12px;width:min(380px,45%);border-radius:12px;border:1px solid #2f74bd}}
+.map-location-list>summary{cursor:pointer;font-size:13px;padding:6px 0;min-height:32px}
+
+/* REL-003 PREVIEW build only (element absent in the live build) */
+.preview-banner{position:sticky;top:0;z-index:50;background:#7a1f1f;color:#fff;font:600 12px/1.3 Inter,system-ui,sans-serif;text-align:center;padding:calc(6px + env(safe-area-inset-top)) 12px 6px;letter-spacing:.02em}
+/* S30 Desktop semantics parity: colour meanings legend, class chips, lineage and lifecycle status */
+.map-key i.layer-glyph{width:9px;height:9px;border-radius:50%;background:transparent;border:1.5px solid #c7d3e2;vertical-align:-1px}.map-key i.glyph-facilities{width:6px;height:6px;background:#c7d3e2}.map-key i.glyph-reports{background:#c7d3e2}.map-key i.glyph-projects{border-style:dashed}.map-key i.glyph-sites{border-radius:2px;transform:rotate(45deg)}
+.semantic-legend{margin:6px 0;font-size:11px}.semantic-legend summary{cursor:pointer;min-height:32px;padding:6px 0;color:var(--text)}.semantic-legend ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}.semantic-legend li{display:grid;grid-template-columns:14px auto 1fr auto;gap:2px 6px;align-items:baseline}.semantic-legend li small{grid-column:2/-1;color:var(--muted)}.semantic-legend .legend-count{color:var(--muted);white-space:nowrap}
+.swatch{display:inline-block;width:10px;height:10px;border-radius:50%;flex:none}
+.class-chip{display:inline-flex;gap:5px;align-items:center;font-size:11px;color:var(--muted)}
+.status-chips{display:flex;flex-wrap:wrap;gap:4px 8px;margin:4px 0 0}.status-chip{display:inline-block;font-size:11px;padding:2px 7px;border-radius:9px;border:1px solid #94a3b8;color:#cbd5e1}.status-chip[data-tone="red"]{border-color:#ef4444;color:#fecaca;background:#ef44441f}.status-chip[data-tone="green"]{border-color:#22c55e;color:#bbf7d0}.status-chip[data-tone="slate"]{border-color:#94a3b8;color:#cbd5e1}
+.d002{font-size:11px;color:var(--muted);margin:4px 0}.lifecycle-panel li{margin:6px 0}.lifecycle-panel ul{padding-left:18px}
+.import-conflict{border-top:1px solid #1d2c40;padding:10px 0}.import-conflict h4{margin:4px 0}.import-versions{display:grid;grid-template-columns:1fr 1fr;gap:10px}.import-versions pre{max-height:180px;background:#081725;border:1px solid #1d2c40;border-radius:6px;padding:8px;margin:4px 0}@media(max-width:600px){.import-versions{grid-template-columns:1fr}}
+/* MOB-HOTSPOTS: measure switch, hotspot layer, legend and ranked drill-down (rules in hotspots.mjs) */
+.map-measure,.map-weight{display:flex;width:100%;max-width:560px;margin:0 0 8px}.map-measure button,.map-weight button{flex:1;min-width:0;min-height:44px;padding:4px 3px;font-size:12.5px}.map-weight button{font-size:12px}
+.data-map .hotspot{cursor:pointer;outline:none}.data-map .hotspot:focus-visible .hot-pill,.data-map .hotspot.selected .hot-pill{stroke:#ffffff}.data-map .hot-count{font-weight:750}
+.hot-legend{margin:8px 0 4px;font-size:11.5px}.hot-legend h3{font-size:13px;margin:4px 0}.hot-legend p{margin:4px 0;line-height:1.45}.hot-legend b{color:var(--text)}
+.hot-scale{display:flex;align-items:center;gap:6px;margin:6px 0 2px}.hot-empty{width:18px;height:10px;border-radius:3px;background:#142d49;border:1px solid #5f7a99}.hot-bar{flex:1;height:10px;border-radius:6px}
+.hot-scale-labels{display:flex;justify-content:space-between;gap:6px;font-size:10.5px;color:#8ea3bb;flex-wrap:wrap}.hot-scale-note,.hot-coverage{color:var(--muted)}
+.hot-ranking{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:4px}.hot-rank-button{width:100%;min-height:44px;display:grid;grid-template-columns:26px minmax(0,1fr) auto;gap:8px;align-items:center;text-align:left;margin:0;padding:6px 10px}
+.hot-rank-button span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.hot-rank-button strong{color:var(--strong)}
+.hot-sheet .sheet-head h3 small{display:block;font-weight:400;color:var(--muted);font-size:11.5px;margin-top:2px}.hot-sheet-actions{margin:4px 0 6px}.hot-sheet-actions button{min-height:44px;margin:0}
+.hot-list{list-style:none;margin:0;padding:0}.hot-row{display:grid;grid-template-columns:24px minmax(0,1fr);gap:0 6px;padding:4px 0;border-bottom:1px solid var(--line);align-items:center}
+.hot-row>*:not(.hot-row-rank){grid-column:2}.hot-row-rank{grid-row:1;color:var(--muted);font-size:12px;text-align:right}.hot-link{display:flex;align-items:center;min-height:44px;font-size:14px;overflow-wrap:anywhere}span.hot-link{color:var(--text)}
+.hot-row small{font-size:11px;color:var(--muted);padding-bottom:4px}.hot-sub{font-size:13px;margin:12px 0 4px}.hot-order{font-size:11px}
+@media(orientation:landscape) and (max-height:550px){.map-measure,.map-weight{display:inline-flex;width:auto;margin-right:6px}.map-measure button,.map-weight button{flex:none;padding:4px 12px}}
+@media(max-width:899px){.map-canvas .map-zoom-controls{position:static;display:flex;justify-content:flex-end;flex-wrap:wrap;gap:6px;margin:6px 0}}
+
+/* ── MOB-INTENSITY: canvas intensity surface + map-dominant layout ───────────────────────────────────────────────
+   The rejected layer put three stacked full-width switch rows, the status block and the toolbar above the map, so on
+   a 375x812 screen the map itself got under a third of the viewport. One scrollable chip row and a one-line status
+   replace them; the map frame takes the majority of the viewport (owner decision: letterbox, 64% at 375x812). */
+.map-canvas{padding:0 0 6px}
+/* the measure chips: one row that scrolls sideways; a fade shows there is more to the right */
+.map-overlay-top{position:relative;padding:8px 8px 0}
+.map-overlay-top::after{content:"";position:absolute;right:8px;top:8px;bottom:0;width:26px;pointer-events:none;background:linear-gradient(90deg,#0a172600,#0a1726)}
+.map-overlay-top .chips{display:flex;gap:6px;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;scrollbar-width:none;max-width:100%;margin:0;border:0;border-radius:0}
+.map-overlay-top .chips::-webkit-scrollbar{display:none}
+.map-overlay-top .chips button{flex:0 0 auto;margin:0;min-height:40px;padding:0 14px;font-size:12.5px;border:1px solid var(--line-2);border-radius:999px;background:#0c1928e6;color:var(--text)}
+.map-overlay-top .chips button[aria-pressed=true]{background:#1d4673;border-color:#4f8fcf;color:#cfe6ff;font-weight:650}
+.map-canvas .map-status{display:flex;justify-content:space-between;align-items:baseline;gap:8px;padding:5px 10px 6px;font-size:11px;border:0}
+.map-canvas .map-status small{font-size:10px}
+/* the toolbar: a 2x2 grid over the map frame's top-right corner, below the chip row and the status line (both fixed
+   height). ONE definition: these rules come after, and override, the older toolbar rules above at every width. */
+.map-canvas .map-zoom-controls{position:absolute;top:84px;right:max(10px,env(safe-area-inset-right));z-index:3;display:grid;grid-template-columns:repeat(2,44px);gap:6px;justify-content:end;margin:0}
+.map-canvas .map-zoom-controls button{opacity:.92}
+@media(max-width:899px){.map-canvas .map-zoom-controls{right:10px}}
+/* the map frame: canvas basemap + intensity underneath, interactive SVG on top, same box */
+.map-stack{position:relative;display:block;width:100%;height:min(64vh,640px);min-height:320px;overflow:hidden;border-radius:8px;background:#06111f}
+/* during a gesture the last painted frame is moved by a composited transform (app.mjs moveMapCanvas), so its origin is
+   the top-left corner the transform maths assumes, and it gets its own layer; uncovered edges show the sea colour */
+.map-stack canvas.map-intensity{position:absolute;inset:0;display:block;width:100%;height:100%;pointer-events:none;transform-origin:0 0;will-change:transform}
+.map-canvas .map-stack svg.map{position:absolute;inset:0;width:100%;height:100%;min-height:0;max-height:none;background:transparent}
+@media(orientation:landscape) and (max-height:550px){.map-stack{height:min(78vh,420px);min-height:240px}}
+/* concentration labels and the honest-precision marks */
+.data-map .hot-label{cursor:pointer;outline:none}
+.data-map .hot-label:focus-visible .hot-tick,.data-map .hot-label.selected .hot-tick{stroke:#fff;stroke-width:2px;vector-effect:non-scaling-stroke}
+.data-map .hot-name{font-weight:600;letter-spacing:.1px}
+.data-map .hot-total{font-weight:750}
+.data-map .map-approx{cursor:pointer;outline:none}
+.data-map .map-approx:focus-visible .approx-dot{stroke:#fff;stroke-width:2.5px;vector-effect:non-scaling-stroke}
+.data-map .neg-event{pointer-events:none}
+/* the legend: compact scale strip stays visible, the prose collapses so it cannot push the map off the screen */
+.hot-legend{margin:8px 0 4px;font-size:11.5px}
+.hot-detail{margin:4px 0}
+.hot-detail>summary{cursor:pointer;color:var(--muted);font-size:11px;min-height:30px;padding:5px 0}
+.hot-precision,.hot-events-note{color:var(--muted);font-size:10.5px}
+.hot-scale-labels .hot-floor,.hot-scale-labels .hot-peak{font-variant-numeric:tabular-nums}
+/* map route: the page chrome above the map is trimmed so the frame starts near the top on a phone. The eyebrow and the
+   privacy notice stay for screen readers and wider screens; they just do not eat the fold. */
+#content[data-route=map] .page-head{margin:0 0 6px}
+#content[data-route=map] .page-head h2{font-size:19px;margin:0}
+#content[data-route=map] .page-head .eyebrow{font-size:9.5px;letter-spacing:.14em;margin:0 0 1px}
+@media(max-width:600px){
+  body:has(#content[data-route=map]) main>details.notice{display:none}
+  #content[data-route=map] .page-head{margin:0 0 4px}
+  #content[data-route=map] .page-head h2{font-size:17px}
+}
+#unsaved{margin:8px 0;padding:10px 12px;border:1px solid #7a3b40;border-left:3px solid #ff9c9c;border-radius:9px;background:#1a1420}#unsaved[hidden]{display:none}#unsaved h3{margin:0 0 6px;font-size:13px;color:#ffb4b4}#unsaved p{margin:2px 0;font-size:12px;overflow-wrap:anywhere}#unsaved .unsaved-reason{color:var(--muted)}#unsaved .unsaved-item+.unsaved-item{margin-top:10px;padding-top:10px;border-top:1px solid #33283a}#unsaved .row{margin-top:8px;gap:8px}#unsaved button{min-height:44px}
+/* ── Visual system (MMAP-022 / MMAP-023): markers, clusters, region plates, legend, layers, controls ──────────────
+   Colours live in map-style.mjs (one source); nothing here invents one. */
+.data-map .vm-mark{cursor:pointer;outline:none}
+.data-map .neg-event{pointer-events:auto}
+.data-map .vm-mark text{font-family:Inter,system-ui,sans-serif;pointer-events:none;font-variant-numeric:tabular-nums}
+.data-map .vm-badge,.data-map .vm-cluster,.data-map .vm-region{pointer-events:none}
+.data-map .marker-hit:focus-visible,.data-map .map-approx:focus-visible .approx-hit{stroke:#fff;stroke-width:2px;vector-effect:non-scaling-stroke}
+.data-map .hot-name{font-weight:650;letter-spacing:0} /* a px letter-spacing in SVG text is in map units: at local zoom it spread the name letter by letter */
+/* controls: one glass column on the right edge of the map */
+.map-canvas .map-zoom-controls{grid-template-columns:44px;gap:0;top:92px;right:10px;border-radius:14px;background:#081626e0;border:1px solid #2a4160;box-shadow:0 8px 24px #0009,inset 0 1px 0 #ffffff14;overflow:hidden}
+.map-canvas .map-zoom-controls button,.map-canvas .map-zoom-controls button:where(*){display:grid;place-items:center;border:0;border-radius:0;background:transparent;color:#dbe9fb;opacity:1;box-shadow:none;border-top:1px solid #2a416080}
+.map-canvas .map-zoom-controls button:first-child{border-top:0}
+.map-canvas .map-zoom-controls button:active{background:#17406b}
+/* measure chips and status: quieter chrome, stronger type */
+.map-overlay-top .chips button{background:#0a1a2ce6;border-color:#263d59;color:#b9cbe0;letter-spacing:.1px}
+.map-overlay-top .chips button[aria-pressed=true]{background:linear-gradient(180deg,#12508f,#0d3a6b);border-color:#58a6f5;color:#f1f6fd;box-shadow:0 0 0 1px #58a6f533,0 4px 14px #0b3a6f88}
+.map-canvas .map-status span{font-weight:650;color:var(--strong);letter-spacing:.1px}
+.map-stack{background:#02070f} /* no inset shadow: measured, an inset shadow over the moving canvas cost most of the WebKit pan and pinch regression */
+/* on-map strip: scale bar and the density ramp with its unit, always visible */
+.vm-strip{position:absolute;left:8px;right:8px;bottom:8px;display:flex;align-items:flex-end;gap:10px;pointer-events:none;z-index:2}
+.vm-scalebar{display:grid;gap:1px;font-size:9.5px;color:#dbe9fb;text-shadow:0 1px 2px #000,0 0 4px #000;min-width:40px}
+.vm-scalebar i{display:block;height:6px;border:1.5px solid #dbe9fb;border-top:0;box-shadow:0 1px 2px #000a}
+.vm-scalebar b{font-weight:650}.vm-scalebar small{color:#a9bdd6;font-size:9px}
+.vm-ramp{flex:1;min-width:0;max-width:330px;margin-left:auto;display:grid;gap:3px;padding:6px 8px 5px;border-radius:9px;background:#071424d9;border:1px solid #223751}
+.vm-ramp-bar{display:block;height:7px;border-radius:4px;box-shadow:inset 0 0 0 1px #ffffff22}
+.vm-ramp-text{display:flex;justify-content:space-between;align-items:baseline;gap:6px;font-size:9.5px;color:#dbe9fb;font-variant-numeric:tabular-nums}
+.vm-ramp-text em{font-style:normal;color:#9db3cd;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.vm-ramp-none{font-size:10px;color:#9db3cd}
+.map-stack[data-heat=false] .vm-ramp{opacity:.45}
+.vm-tools{position:absolute;left:8px;top:8px;display:flex;gap:6px;z-index:3}
+.vm-tool{margin:0;min-height:44px;min-width:66px;padding:0 12px;border-radius:12px;border:1px solid #2a4160;background:#081626e6;color:#eaf2fc;font-size:12px;font-weight:650;box-shadow:0 6px 18px #0009}
+.vm-tool[aria-expanded=true]{background:#12508f;border-color:#58a6f5}
+.vm-panel{position:absolute;left:8px;right:8px;top:60px;max-height:calc(100% - 120px);overflow:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;z-index:4;padding:10px 12px 12px;border-radius:14px;background:#06121ff2;border:1px solid #2a4160;box-shadow:0 14px 40px #000c}
+.vm-panel[hidden]{display:none}
+.vm-panel-head{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:-4px -4px 2px 0}
+.vm-panel-head h3{margin:0;font-size:14px;font-weight:700;color:var(--strong);letter-spacing:.1px}
+.vm-panel-close{margin:0;min-width:44px;min-height:44px;border:0;background:transparent;color:#b9cbe0;font-size:15px}
+.vm-legend-list{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+.vm-legend-list li{display:grid;grid-template-columns:48px minmax(0,1fr);align-items:center;gap:8px;min-height:40px}
+.vm-legend-list .vm-swatch{justify-self:center}
+.vm-legend-list b{display:block;font-size:12.5px;font-weight:650;color:var(--strong);line-height:1.25}
+.vm-legend-list small{display:block;font-size:10.5px;color:#9db3cd;line-height:1.3}
+.vm-panel-ramp{margin:10px 0 0;display:grid;gap:4px}
+.vm-toggle{display:grid;grid-template-columns:22px 16px minmax(0,1fr);align-items:center;gap:10px;min-height:44px;font-size:13px;color:var(--text);border-bottom:1px solid #1b2c42}
+.vm-toggle input{width:20px;height:20px;margin:0;accent-color:#3d93f5}
+.vm-toggle-key{width:14px;height:14px;border-radius:50%}
+.vm-toggle[data-toggle=heat] .vm-toggle-key{border-radius:3px;height:8px}
+.vm-layout{margin:10px 0 0;display:flex;width:100%}.vm-layout button{flex:1;min-height:44px;font-size:12px}
+/* the letterboxed world: the free band under the globe states what is on the map instead of sitting empty */
+.vm-band{display:none}
+.map-stack[data-band=open] .vm-band{display:grid;gap:5px;position:absolute;left:14px;right:14px;bottom:66px;height:calc(var(--vm-band) - 74px);align-content:center;pointer-events:none;font-size:11.5px;color:#b9cbe0;z-index:1;overflow:hidden}
+.vm-band span{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.vm-band i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:7px;box-shadow:0 0 0 2px #04101c}
+.vm-band b{color:var(--strong);font-size:14px;font-weight:700;font-variant-numeric:tabular-nums}
+/* legend block under the map, sheets and chips */
+.vm-legend{margin:10px 0 4px;padding:10px 12px;border:1px solid var(--line-2);border-radius:10px;background:#0a1828}
+.vm-tally{width:100%;border-collapse:collapse;margin:8px 0 4px;font-size:11px;font-variant-numeric:tabular-nums}
+.vm-tally th,.vm-tally td{padding:5px 4px;border-bottom:1px solid var(--line);text-align:right;font-weight:500;color:var(--text)}
+.vm-tally th:first-child{text-align:left}.vm-tally thead th{color:var(--muted);font-size:10px;font-weight:600}
+.vm-honest{font-size:10.5px;color:var(--muted);margin:6px 0}
+.vm-region-list>summary{cursor:pointer;min-height:44px;display:flex;align-items:center;font-size:12px;font-weight:650}
+.vm-region-button{width:100%;min-height:44px;margin:0 0 4px;display:grid;grid-template-columns:minmax(0,1fr) auto auto auto;gap:8px;align-items:center;text-align:left;padding:6px 10px;border-style:dashed}
+.vm-region-button span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.vm-region-button em{font-style:normal;font-size:10.5px;font-weight:700;border:1.5px solid;border-radius:9px;padding:0 6px;line-height:16px}
+.vm-dot{width:10px;height:10px;border-radius:2px;display:inline-block}
+.vm-chip{display:inline-flex;align-items:center;gap:5px;font-size:10.5px;font-weight:650;letter-spacing:.03em;color:#cfe0f3;white-space:nowrap}
+.vm-chip svg{flex:none}
+.vm-sheet .sheet-head h3 small{display:block;font-weight:400;color:var(--muted);font-size:11.5px;margin-top:2px}
+.vm-sheet .vm-row{padding:9px 0}
+.vm-sheet .vm-row[data-negative=true]{box-shadow:inset 3px 0 0 #FF454F;padding-left:9px}
+.vm-sheet .sheet-link{min-height:32px;display:flex;align-items:center;font-weight:600}
+.vm-evidence{display:flex;align-items:center;min-height:44px;font-size:12.5px;color:#8fc4ff}
+.vm-region-note{font-size:11.5px;color:#cfe0f3;margin:2px 0 6px;padding:7px 9px;border:1px dashed #5d7896;border-radius:8px}
+.provisional-badge{display:inline-block;padding:1px 7px;border-radius:999px;border:1px solid #FFBF47;color:#FFBF47;font-size:10.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;vertical-align:1px}
+.hub-provisional{font-size:12px;color:var(--text);margin:6px 0}
+#frame-meter{position:fixed;left:6px;bottom:calc(6px + env(safe-area-inset-bottom));z-index:90;width:min(340px,calc(100vw - 12px));padding:6px 8px;border-radius:10px;background:#020a14f0;border:1px solid #3d93f5;color:#dbe9fb;font:11px/1.35 ui-monospace,Menlo,monospace;box-shadow:0 8px 24px #000c}
+#frame-meter .fm-head{display:flex;align-items:center;gap:4px;flex-wrap:wrap}#frame-meter .fm-head b{font:700 12px Inter,system-ui}#frame-meter .fm-head small{color:#8ea3bb;margin-right:auto}
+#frame-meter button{margin:0;min-height:44px;min-width:44px;padding:0 8px;font-size:11px}
+#frame-meter pre{margin:4px 0 0;white-space:pre-wrap}#frame-meter .fm-text{width:100%;height:120px;margin-top:4px;font:10px ui-monospace,Menlo,monospace}#frame-meter .fm-text[hidden]{display:none}
+#frame-meter.fm-min pre,#frame-meter.fm-min .fm-text{display:none}
+/* Gesture cost (measured): the on-map chrome sits over the canvas, which moves by a composited transform during a
+   gesture. Each overlay gets its own compositing layer and only a small shadow, so moving the map does not repaint it. */
+.vm-strip,.vm-tools,.vm-band,.map-canvas .map-zoom-controls{will-change:transform;transform:translateZ(0)}
+.map-canvas .map-zoom-controls{box-shadow:0 2px 8px #0008}
+.vm-tool{box-shadow:0 2px 6px #0008}
+/* records with no location at all: a plate docked on the frame (not on the geography) */
+.vm-unlocated{position:absolute;left:8px;top:60px;z-index:3;margin:0;padding:0 4px;min-height:44px;min-width:66px;border:0;background:transparent;will-change:transform;transform:translateZ(0)}
+/* Category colours carried into the measure chips, the markers-mode layer filters and the project page (MMAP-022:
+   the same colours in the map, filters, project details and evidence panels). Values from map-style.mjs. */
+.map-overlay-top .chips button[data-id]::before{content:"";display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:7px;vertical-align:0;box-shadow:0 0 0 2px #04101c}
+.map-overlay-top .chips button[data-id=projects]::before{background:#00D5FF}
+.map-overlay-top .chips button[data-id=facilities]::before{background:#16C784}
+.map-overlay-top .chips button[data-id=reports]::before{background:#A78BFA}
+.map-overlay-top .chips button[data-id=negatives]::before{background:#FF454F;border-radius:2px}
+.map-overlay-top .chips button[data-id=markers]::before{background:transparent;box-shadow:inset 0 0 0 1.5px #c9d8ea}
+.map-overlay-top .chips button[data-id=projects][aria-pressed=true]{border-color:#00D5FF}
+.map-overlay-top .chips button[data-id=facilities][aria-pressed=true]{border-color:#16C784}
+.map-overlay-top .chips button[data-id=reports][aria-pressed=true]{border-color:#A78BFA}
+.map-overlay-top .chips button[data-id=negatives][aria-pressed=true]{border-color:#FF454F}
+.layer-colour{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:2px;box-shadow:0 0 0 2px #04101c}
+.layer-colour[data-layer-colour=projects]{background:#00D5FF}.layer-colour[data-layer-colour=facilities]{background:#16C784}.layer-colour[data-layer-colour=reports]{background:#A78BFA}.layer-colour[data-layer-colour=sites]{background:#9fb6cf}
+.project-mark{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:2px 0 6px}
+.project-mark .vm-chip{font-size:12px}.project-mark-note{font-size:11px;font-weight:650;color:#FFBF47}
+.project-mark[data-negative=true] .project-mark-note:first-of-type{color:#FF454F}
