@@ -249,7 +249,7 @@ fieldset{margin:10px 0;border:1px solid var(--line);border-radius:8px}fieldset l
 .vm-chip svg{flex:none}
 .vm-sheet .sheet-head h3 small{display:block;font-weight:400;color:var(--muted);font-size:11.5px;margin-top:2px}
 .vm-sheet .vm-row{padding:9px 0}
-.vm-sheet .vm-row[data-negative=true]{box-shadow:inset 3px 0 0 #FF454F;padding-left:9px}
+.vm-sheet .vm-row[data-negative=true]{box-shadow:inset 3px 0 0 #E040FB;padding-left:9px}
 .vm-sheet .sheet-link{min-height:32px;display:flex;align-items:center;font-weight:600}
 .vm-evidence{display:flex;align-items:center;min-height:44px;font-size:12.5px;color:#8fc4ff}
 .vm-region-note{font-size:11.5px;color:#cfe0f3;margin:2px 0 6px;padding:7px 9px;border:1px dashed #5d7896;border-radius:8px}
@@ -273,14 +273,73 @@ fieldset{margin:10px 0;border:1px solid var(--line);border-radius:8px}fieldset l
 .map-overlay-top .chips button[data-id=projects]::before{background:#00D5FF}
 .map-overlay-top .chips button[data-id=facilities]::before{background:#16C784}
 .map-overlay-top .chips button[data-id=reports]::before{background:#A78BFA}
-.map-overlay-top .chips button[data-id=negatives]::before{background:#FF454F;border-radius:2px}
+.map-overlay-top .chips button[data-id=negatives]::before{background:#E040FB;border-radius:2px}
 .map-overlay-top .chips button[data-id=markers]::before{background:transparent;box-shadow:inset 0 0 0 1.5px #c9d8ea}
 .map-overlay-top .chips button[data-id=projects][aria-pressed=true]{border-color:#00D5FF}
 .map-overlay-top .chips button[data-id=facilities][aria-pressed=true]{border-color:#16C784}
 .map-overlay-top .chips button[data-id=reports][aria-pressed=true]{border-color:#A78BFA}
-.map-overlay-top .chips button[data-id=negatives][aria-pressed=true]{border-color:#FF454F}
+.map-overlay-top .chips button[data-id=negatives][aria-pressed=true]{border-color:#E040FB}
 .layer-colour{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:2px;box-shadow:0 0 0 2px #04101c}
 .layer-colour[data-layer-colour=projects]{background:#00D5FF}.layer-colour[data-layer-colour=facilities]{background:#16C784}.layer-colour[data-layer-colour=reports]{background:#A78BFA}.layer-colour[data-layer-colour=sites]{background:#9fb6cf}
 .project-mark{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:2px 0 6px}
 .project-mark .vm-chip{font-size:12px}.project-mark-note{font-size:11px;font-weight:650;color:#FFBF47}
-.project-mark[data-negative=true] .project-mark-note:first-of-type{color:#FF454F}
+.project-mark[data-negative=true] .project-mark-note:first-of-type{color:#E040FB}
+/* 1.6.2 geographic heat: compact legend (thin colour bar; thresholds behind the info button) and the D-002 notice */
+.vm-heat{flex:1;min-width:0;max-width:330px;margin-left:auto;display:grid;grid-template-columns:1fr auto;align-items:center;column-gap:6px;row-gap:3px;padding:6px 8px 5px;border-radius:9px;background:#071424d9;border:1px solid #223751;pointer-events:none}
+.vm-heatbar{display:flex;height:6px;border-radius:3px;overflow:hidden;box-shadow:inset 0 0 0 1px #ffffff22}.vm-heatbar i{flex:1}.vm-heatbar .vm-heat-ins{flex:.7;margin-right:3px}
+.vm-heat-text{grid-column:1;display:flex;justify-content:space-between;align-items:baseline;gap:6px;font-size:9.5px;color:#dbe9fb}
+.vm-heat-text em{font-style:normal;color:#9db3cd;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.vm-heat-info{grid-column:2;grid-row:1/span 2;position:relative;pointer-events:auto}
+.vm-heat-info>summary{list-style:none;display:grid;place-items:center;min-width:44px;min-height:44px;margin:-10px -6px -10px 0;font:italic 700 13px/1 Georgia,serif;color:#dbe9fb;cursor:pointer}
+.vm-heat-info>summary::-webkit-details-marker{display:none}
+.vm-heat-info>summary::before{content:'';position:absolute;width:20px;height:20px;border-radius:50%;border:1px solid #5f7a99;inset:50% auto auto 50%;transform:translate(-50%,-50%)}
+.vm-heat-pop{position:absolute;right:-8px;bottom:calc(100% + 12px);width:min(300px,calc(100vw - 32px));padding:9px 10px;border-radius:10px;background:#061223f5;border:1px solid #2a4566;font-size:11px;color:#dbe9fb;z-index:5}
+.vm-heat-pop p{margin:6px 0 0;color:#b9cde6}
+.vm-heat-table{width:100%;border-collapse:collapse;font-size:11px}.vm-heat-table th{text-align:left;font-weight:600;padding:2px 4px 2px 0}.vm-heat-table td{text-align:right;color:#b9cde6;font-variant-numeric:tabular-nums}
+.vm-count-table{width:100%;border-collapse:collapse;font-size:11px;margin-bottom:6px}.vm-count-table th{text-align:left;font-weight:600;padding:2px 4px 2px 0}.vm-count-table td{text-align:right;color:#b9cde6;font-variant-numeric:tabular-nums;padding-left:6px;vertical-align:top}.vm-count-table i{display:inline-block;width:14px;height:9px;border-radius:2px;margin-right:6px;vertical-align:-1px;box-shadow:inset 0 0 0 1px #ffffff33}.vm-count-table small{display:block;font-weight:400;color:#9fb3cc}.vm-band-wait{color:#9fb3cc;font-style:italic}
+.vm-heat-table i{display:inline-block;width:14px;height:9px;border-radius:2px;margin-right:6px;vertical-align:-1px;box-shadow:inset 0 0 0 1px #ffffff33}
+.vm-heat-none{font-size:10px;color:#9db3cd}
+.map-stack[data-heat=false] .vm-heat{opacity:.45}
+.vm-d002{grid-column:1/-1;margin:0 0 2px;padding:2px 6px;justify-self:start;border-radius:5px;background:#2a1d05e6;border:1px solid #FFBF4799;color:#FFD98A;font-size:10px;font-weight:650;line-height:1.3;white-space:nowrap}
+.vm-heat-none{display:grid;gap:3px}
+.page-head .map-d002{display:inline-block;margin:2px 0 0;font-size:12px}
+.page-head .map-d002>summary{display:inline-flex;align-items:center;min-height:32px;padding:2px 10px;border-radius:7px;background:#2a1d05;border:1px solid #FFBF4799;color:#FFD98A;font-weight:650;cursor:pointer;list-style:none}
+.page-head .map-d002>summary::-webkit-details-marker{display:none}
+.page-head .map-d002 p{max-width:560px;margin:6px 0 0;color:#cbd8e8}
+.vm-heat-text{display:grid;grid-template-columns:.7fr 1fr 1fr 1fr 1fr;gap:2px}.vm-heat-text b{font-size:9px;font-weight:600;color:#dbe9fb;white-space:nowrap;text-align:center}.vm-heat-text .vm-heat-nodata{color:#9db3cd;text-align:left}
+.vm-heatbar .vm-heat-ins{flex:.7}
+/* 1.6.2 cluster breakdown (SPEC §5) and location detail panel (SPEC §6) */
+.vm-bd-total{margin:4px 0 8px;font-size:13px;color:#cbd8e8}
+.vm-breakdown{display:grid;gap:6px}
+.vm-bd{border:1px solid #223751;border-radius:9px;background:#071424}
+.vm-bd>summary{display:grid;grid-template-columns:1fr auto auto;align-items:center;gap:8px;min-height:44px;padding:4px 10px;cursor:pointer;list-style:none}
+.vm-bd>summary::-webkit-details-marker{display:none}
+.vm-bd>summary b{font-size:15px;font-variant-numeric:tabular-nums}.vm-bd>summary small{color:#9db3cd;font-variant-numeric:tabular-nums}
+.vm-bd .sheet-list{margin:0 8px 8px}.vm-bd-sub{margin:4px 10px;font-size:12px;color:#9db3cd}
+.vm-bd-report small{display:block;color:#9db3cd}
+.vm-detail{display:grid;gap:4px;margin:8px 0 0;padding:8px 10px;border:1px solid #223751;border-radius:9px;background:#071424;font-size:12.5px}
+.vm-detail-row{display:grid;grid-template-columns:minmax(110px,38%) 1fr;gap:8px}.vm-detail dt{color:#9db3cd}.vm-detail dd{margin:0;color:#e6eef8}
+/* 1.6.2 owner design decision (2026-11-19): map modes, the negatives overlay switch, the compact location label, the area panel */
+.map-overlay-top{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.map-mode{display:flex;flex:1 1 220px;max-width:420px;margin:0}.map-mode button{flex:1;min-width:0;min-height:44px;padding:4px 6px;font-size:13px}
+.map-neg-toggle{min-height:44px;padding:4px 10px;font-size:12px;border-color:#E040FB66}.map-neg-toggle[aria-pressed="true"]{background:#E040FB22;border-color:#E040FB;color:#fff}
+.map-measure-note{margin:4px 0 2px;font-size:11px}
+.vm-where{position:static;flex:0 1 auto;min-width:0;display:flex;align-items:center;gap:6px;max-width:62%;min-height:44px;padding:6px 12px 6px 10px;border-radius:10px;border:1px solid #2f74bd88;background:rgba(6,16,30,.86);color:#f4f8fc;font:700 15px/1.2 Inter,system-ui,sans-serif;text-align:left;box-shadow:0 2px 10px #0008}
+.vm-where-text{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.vm-where-pin{flex:none;width:10px;height:10px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);border:2px solid #f4f8fc}
+.vm-tools{right:64px;flex-wrap:nowrap}.vm-tools .vm-tool{flex:none}.vm-where{max-width:none}
+.map-canvas:has(.map-overlay-top>.map-measure) .map-zoom-controls{top:100px}
+.map-overlay-top .map-mode button[data-id]::before{display:none}.map-overlay-top .map-mode .map-neg-toggle::before{display:inline-block;background:#E040FB}
+.vm-area-tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:8px 0}.vm-area-tiles div{border:1px solid #2f74bd66;border-radius:8px;padding:6px 8px;background:#0e2036}.vm-area-tiles b{display:block;font-size:18px;color:#fff;font-variant-numeric:tabular-nums}.vm-area-tiles span{font-size:11px;color:#9fb3cc}
+.vm-area-path{display:block;font-size:12px;font-weight:500;color:#9fb3cc;margin-top:2px}
+.vm-area-summary{font-size:12.5px;margin:6px 0}.vm-area-rule{font-size:11px}
+.vm-area-find{display:block;margin:8px 0}.vm-area-find span{display:block;font-size:11px;color:#9fb3cc;margin-bottom:3px}.vm-area-search{width:100%;min-height:44px;font-size:16px}
+.vm-area-list{margin:6px 0}.vm-area-list summary{min-height:44px;display:flex;align-items:center;gap:6px;font-weight:600;cursor:pointer}.vm-area-list summary b{margin-left:auto;font-variant-numeric:tabular-nums}
+.vm-area-row{display:flex;flex-direction:column;padding:6px 0;border-bottom:1px solid #ffffff12}.vm-area-row small{color:#9fb3cc}.vm-area-row[hidden]{display:none}
+.map-overlay-top>.map-measure{flex:1 1 100%;min-width:0;max-width:none}.map-overlay-top>.map-mode{min-width:0}
+/* zoom-state indicator (documented glow / exact values), directly under the location label */
+.vm-zoomstate{position:absolute;left:0;top:calc(100% + 4px);display:inline-flex;align-items:center;gap:6px;min-height:28px;max-width:100%;padding:3px 10px;border-radius:8px;border:1px solid #2f74bd66;background:rgba(6,16,30,.86);color:#cfe0f3;font:600 11.5px/1.2 Inter,system-ui,sans-serif;pointer-events:auto;cursor:pointer}
+.vm-zoomstate::before{content:'';flex:none;width:8px;height:8px;border-radius:50%;background:#f97316;box-shadow:0 0 6px #f97316}
+.vm-zoomstate[data-state=exact]::before{background:#eef7ff;box-shadow:none}
+.vm-zoomstate-text{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.vm-unlocated.vm-below-zoomstate{top:92px}
