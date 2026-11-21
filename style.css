@@ -343,3 +343,13 @@ fieldset{margin:10px 0;border:1px solid var(--line);border-radius:8px}fieldset l
 .vm-zoomstate[data-state=exact]::before{background:#eef7ff;box-shadow:none}
 .vm-zoomstate-text{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .vm-unlocated.vm-below-zoomstate{top:92px}
+
+/* geo-170: Projects map mode panel and the Location recovery page */
+.vm-bands{list-style:none;margin:8px 0;padding:0;display:grid;gap:2px}.vm-bands li{display:grid;grid-template-columns:48px minmax(0,1fr);align-items:center;gap:8px;min-height:44px}.vm-bands .vm-swatch{justify-self:center}.vm-bands small{display:block;color:var(--muted);font-size:11.5px}
+.vm-projects-panel .vm-disclosed{border:1px solid #2a4160;border-radius:8px;padding:8px 10px;background:#0a1a2c}.vm-notplaced>summary{cursor:pointer;min-height:44px;display:flex;align-items:center;font-weight:650}.vm-recovery-link{display:inline-flex;align-items:center;min-height:44px}
+.map-projects-status{overflow-wrap:anywhere}
+.geo-page .geo-item{display:grid;gap:2px;padding:8px 0;border-bottom:1px solid #1b2c42;list-style:none}.geo-page .geo-item small{display:block;color:var(--muted);font-size:12px;overflow-wrap:anywhere}.geo-page .geo-why{color:#9fb6cf}
+.geo-page .geo-subhead{font-weight:650;padding:10px 0 2px;list-style:none}.geo-page .geo-confirm{display:flex;align-items:flex-start;gap:10px;min-height:44px;padding:6px 0;font-size:13px}.geo-page .geo-confirm input{flex:0 0 auto;width:24px;height:24px;margin:0}
+.geo-page .row button,.geo-page .geo-run button,.geo-page>p>button{min-height:44px;margin:4px 6px 4px 0}.geo-page .geo-list>summary{cursor:pointer;min-height:44px;display:flex;align-items:center;gap:8px;font-weight:650}.geo-page .geo-problem{border:1px solid #7a3b40;border-radius:8px;padding:8px 10px;color:#ffb4b4}
+.geo-page .sheet-list{list-style:none;margin:0;padding:0}.geo-page .geo-candidates{display:flex;flex-wrap:wrap}
+.vm-heat[hidden]{display:none}
