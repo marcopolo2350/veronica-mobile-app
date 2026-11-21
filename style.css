@@ -353,3 +353,19 @@ fieldset{margin:10px 0;border:1px solid var(--line);border-radius:8px}fieldset l
 .geo-page .row button,.geo-page .geo-run button,.geo-page>p>button{min-height:44px;margin:4px 6px 4px 0}.geo-page .geo-list>summary{cursor:pointer;min-height:44px;display:flex;align-items:center;gap:8px;font-weight:650}.geo-page .geo-problem{border:1px solid #7a3b40;border-radius:8px;padding:8px 10px;color:#ffb4b4}
 .geo-page .sheet-list{list-style:none;margin:0;padding:0}.geo-page .geo-candidates{display:flex;flex-wrap:wrap}
 .vm-heat[hidden]{display:none}
+/* My Intelligence (workspace-view.mjs): 44 px touch targets, one column at 390 px */
+.ws-page button,.ws-page select,.ws-page input:not([type=checkbox]),.ws-page textarea,.ws-page summary,.ws-link,.ws-open{min-height:44px}
+.ws-page input:not([type=checkbox]),.ws-page select,.ws-page textarea{width:100%;font-size:16px}.ws-page textarea{min-height:88px}
+.ws-page label{display:block;margin:8px 0}.ws-page .row{display:flex;flex-wrap:wrap;gap:8px}.ws-page details>summary{display:flex;align-items:center;cursor:pointer}
+.ws-tabs{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}.ws-tabs button{flex:1 1 30%;min-width:96px;margin:0}.ws-tabs button[aria-pressed="true"]{background:var(--blue-soft);border-color:var(--blue);color:#fff}
+.ws-count{display:inline-block;min-width:20px;padding:0 6px;border-radius:10px;background:#0a1a2c;font-size:12px;text-align:center}
+.ws-labels{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0}.ws-item .status-chips{margin-top:6px}
+.ws-due{border-color:#ffbf47;color:#ffd98a}.ws-due[data-due="overdue"],.ws-due[data-due="action-overdue"]{border-color:#ff9c9c;color:#ffb4b4}
+.ws-assess{padding:8px 0;border-top:1px solid var(--line)}.ws-assess h4{margin:0 0 4px}.ws-note,.ws-ref,.ws-rel,.ws-event,.ws-alert{padding:8px 0;border-top:1px solid var(--line);overflow-wrap:anywhere}
+.ws-link,.ws-open{display:inline-flex;align-items:center;padding:0 14px;border:1px solid var(--line-2);border-radius:8px;color:#9ab5ff;text-decoration:none;font-weight:600}
+.ws-relform fieldset{border:1px solid var(--line);border-radius:8px;margin:8px 0}.ws-conflict .import-versions{display:grid;gap:8px}
+.ws-map-pursue{display:block;min-height:44px;margin:6px 0 2px;padding:0 16px}
+.nav-badge{margin-left:auto;min-width:20px;padding:1px 6px;border-radius:10px;background:#ffbf47;color:#06111f;font-size:11px;font-weight:700;text-align:center}.nav-badge[hidden]{display:none}
+nav a.nav-has-badge{display:flex;align-items:center;gap:8px}
+#ws-toast{position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom));z-index:60;display:flex;align-items:center;gap:10px;padding:8px 8px 8px 14px;border:1px solid var(--blue);border-radius:12px;background:#0c1928;box-shadow:0 8px 24px #000a}
+#ws-toast .ws-toast-text{flex:1}#ws-toast .ws-toast-close{min-width:44px;min-height:44px;margin:0;border:0;background:transparent;font-size:20px}
