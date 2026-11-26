@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-26T08:32:51.338Z",
+  "generated_at": "2026-11-26T21:41:47.978Z",
   "scope": "Public endpoint headline/link/date metadata only; not desktop intelligence or complete desktop coverage",
   "records": [
     {
@@ -13,7 +13,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-92564b1248ff65bf57fad7ac197a3203c708309e7696371ac7dc6e6a74581543"
@@ -28,7 +28,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-e66e825c7796655e9ce5a87964840ad8bba95cdf3ef8d79e0eabf2e0ade1d274"
@@ -43,7 +43,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-b3888ab151f86d11c8f81cb94be805f314d2c1c90626e94a404b83751a1178d5"
@@ -58,7 +58,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-f99aa4fb07535617a3e54f0e701a5ff1104857f34c73fa0afaab7cf358b15592"
@@ -73,7 +73,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-b763f9370a49f7cd6871a669dec263f64453c1c3081a5da123d20a8e34cf3016"
@@ -88,7 +88,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-a8b1f44d0fc5ebe86955929aa3fdddb0b0d309bdcaa206ad4c664a3a98167961"
@@ -103,7 +103,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-f771eff23a74764446cdac0ddaf63b8bcdcd16e3c479f289e83525db7100611f"
@@ -118,7 +118,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-e7665f008885d3904021b1345ef02042cc34973bb9115d1aaed9619d65bba67c"
@@ -133,7 +133,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-e727e7139044186599180366014ea272cf211849166709e9330722cbe31bc82b"
@@ -148,7 +148,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-43d8e8ee96ee75401406feb451c0d7874df153039e7e1b1aba67c6694c97c82e"
@@ -163,7 +163,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-7496e734cce02aaa6c8297c4020868ff73cf15c918836a80ad3a003496f8678a"
@@ -178,7 +178,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-9b1db3cfb7a1b4132f907710d7ec83a56bdd95d0437d124feba61a8c4824b7b6"
@@ -193,7 +193,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-0d5d4c874528f4ec559089f2808d2879fe3f0aba8a47a7c3f2248caf1d0a51a6"
@@ -208,7 +208,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-cc1603bc8370c5a11d6a1081dea91b56fc0d591dde45fd25be3d940852d7732b"
@@ -223,7 +223,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-4ae6e9f6bbe333d538e40cc9646fa783e9755ce0751d7156c471882c23c1c5e0"
@@ -238,7 +238,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-dcfc2084633b6bd63211aa2dd193b843d6c084895c97348039847967fa4f35ec"
@@ -253,7 +253,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-0391b784085bdf2ac6b27e774d55548206827e208bb8066a60203ee5b817a370"
@@ -853,7 +853,7 @@
       "connector": "Fierce Pharma manufacturing",
       "publisher": "Fierce Pharma manufacturing",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-063643f88c1f5dc7ae046889828618281ef55456014117bf1a52177f581dffa8"
@@ -868,7 +868,7 @@
       "connector": "Fierce Pharma manufacturing",
       "publisher": "Fierce Pharma manufacturing",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-5fcc144824f2013e828e35b5c66d32e9e21dd85331a5be23008a35a1d5f09cc7"
@@ -883,7 +883,7 @@
       "connector": "Fierce Pharma manufacturing",
       "publisher": "Fierce Pharma manufacturing",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-75b4e58834d9b55b59e9ebb4da0b2e6eba488039e7230cc39e848230bb9a2389"
@@ -898,7 +898,7 @@
       "connector": "Fierce Pharma manufacturing",
       "publisher": "Fierce Pharma manufacturing",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-946e69b8dc264f3656e6877302f76629da7defde72e04e4eb8c0b4523e75924b"
@@ -913,7 +913,7 @@
       "connector": "Fierce Pharma manufacturing",
       "publisher": "Fierce Pharma manufacturing",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-72af89708bd96b0fc3d45c14e2e61b5737a6a1706ae2a59208000869f6fbeba5"
@@ -928,7 +928,7 @@
       "connector": "Fierce Pharma manufacturing",
       "publisher": "Fierce Pharma manufacturing",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-c40904f8a3e6993536b463f0b7304aac1ea974ddc4fa645f5f4025110acfa24c"
@@ -943,7 +943,7 @@
       "connector": "Fierce Pharma manufacturing",
       "publisher": "Fierce Pharma manufacturing",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-94e1424dc41b59a566e6dc14e28c53cfb40624b13fc7106ba9741020bc00a6df"
@@ -958,7 +958,7 @@
       "connector": "Fierce Pharma manufacturing",
       "publisher": "Fierce Pharma manufacturing",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-d7591ab242a1d2a54bbfada5c1062e726ff364d51a7a359feaed3817d27ce6fa"
@@ -973,7 +973,7 @@
       "connector": "Fierce Pharma manufacturing",
       "publisher": "Fierce Pharma manufacturing",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-40a01e1afdd9fa9fb767976d27bd70e4350c0efaae479ff59780f700fc5c9fbd"
@@ -988,7 +988,7 @@
       "connector": "Fierce Pharma manufacturing",
       "publisher": "Fierce Pharma manufacturing",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-31a769a240bc3833afa7d78d5bf4a50548e211b73d2cde2a9324691057da757f"
@@ -1003,7 +1003,7 @@
       "connector": "Fierce Pharma manufacturing",
       "publisher": "Fierce Pharma manufacturing",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-f60ca2c581baf18bd3b91f10f5e3199a4d9f770eaca139f6417a9887b14fc244"
@@ -1018,7 +1018,7 @@
       "connector": "Fierce Pharma manufacturing",
       "publisher": "Fierce Pharma manufacturing",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-7c3e23e90d1ea864060986d0180b8d7666e228590e0c43136c01acbaa1e83696"
@@ -1033,7 +1033,7 @@
       "connector": "Fierce Pharma manufacturing",
       "publisher": "Fierce Pharma manufacturing",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-87fb29f486322e710b2f3cc7c208307ffdfebb9bd5a88eb48380a1847945f100"
@@ -1048,7 +1048,7 @@
       "connector": "Fierce Pharma manufacturing",
       "publisher": "Fierce Pharma manufacturing",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-2c10ebc79f9e763599775b81e927a98fb92cc9faf10e0edd2805891f35badaaf"
@@ -1063,7 +1063,7 @@
       "connector": "Fierce Pharma manufacturing",
       "publisher": "Fierce Pharma manufacturing",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-cd905b714773cf555cc474499f75073d77d698dc399621d036fa3d1ef76f3e9a"
@@ -1078,7 +1078,7 @@
       "connector": "Fierce Pharma manufacturing",
       "publisher": "Fierce Pharma manufacturing",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-19cb0c9b643e25766dd01ce67323cd91f7805c197f7be109f04759885006ee9f"
@@ -1093,7 +1093,7 @@
       "connector": "Fierce Pharma manufacturing",
       "publisher": "Fierce Pharma manufacturing",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-205bac34fb76d7f4ab62831f78bd5fa4210631cea7ef3ac4c179c8935dc0b4e9"
@@ -1108,7 +1108,7 @@
       "connector": "Fierce Pharma manufacturing",
       "publisher": "Fierce Pharma manufacturing",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-5432af8f2157324b3372a77153fe7464079198e5131f45c8888e03ee6f27982d"
@@ -1123,7 +1123,7 @@
       "connector": "Fierce Pharma manufacturing",
       "publisher": "Fierce Pharma manufacturing",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-581805071c62214e7a2866b4a71058fd2f4cba918871def6df2c646723b0ffb8"
@@ -1138,7 +1138,7 @@
       "connector": "Fierce Pharma manufacturing",
       "publisher": "Fierce Pharma manufacturing",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-7abe8f1a35d0f683ecf812dba6385d1bc2fc3a8788c0b0b4dca33a4640a54731"
@@ -1302,7 +1302,7 @@
       "connector": "Contract Pharma",
       "publisher": "Contract Pharma",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-f92cf2625338ae27e37cec60580fcb930b2764bb97f5b9dfaa53cdc2785fc9e2"
@@ -1317,7 +1317,7 @@
       "connector": "Contract Pharma",
       "publisher": "Contract Pharma",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-2d0ebbf7398386bcf2c250850df19ee17225143a31311cec920251b0095c8b68"
@@ -1332,7 +1332,7 @@
       "connector": "Contract Pharma",
       "publisher": "Contract Pharma",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-b5af185f1fcecd39d94dffb37abe7389a4486d8d4e7fa231ac64ecb1b9bf02a1"
@@ -1347,7 +1347,7 @@
       "connector": "Contract Pharma",
       "publisher": "Contract Pharma",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-1baaecddad8290ef9db16a20b70ed1fd6a1463fa9b66105135823045cf979e10"
@@ -1362,7 +1362,7 @@
       "connector": "Contract Pharma",
       "publisher": "Contract Pharma",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-573c22c1da749ca3c1e654e8449770f0a2ec2d3d15c5c59cea657ebb296949a4"
@@ -1377,7 +1377,7 @@
       "connector": "Contract Pharma",
       "publisher": "Contract Pharma",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-7566f12f8b4a74fd62822c61d65fce962390540031f98722a2c0d4c81b21ef45"
@@ -1392,7 +1392,7 @@
       "connector": "Contract Pharma",
       "publisher": "Contract Pharma",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-39db3e9cd831a92b28c3c049301726878cb1c350b06af16db96c07dacbf717a8"
@@ -1407,7 +1407,7 @@
       "connector": "Contract Pharma",
       "publisher": "Contract Pharma",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-41ec8abbedb9c9c6f1cacc0abc787efb3d1f90b567ea8d692ddd56adfde938d8"
@@ -1422,7 +1422,7 @@
       "connector": "Contract Pharma",
       "publisher": "Contract Pharma",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-32b85ca0e36df80a162bd5e377a65de4a2040c325227f34886268f94b707e60b"
@@ -1437,7 +1437,7 @@
       "connector": "Contract Pharma",
       "publisher": "Contract Pharma",
       "first_seen_at": "2026-11-10T18:20:40.062Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-53876ecd82909c18d1be7478a4caa003d7e618ace4ce4c416e126aafe03d83f5"
@@ -1722,7 +1722,7 @@
       "connector": "FDA press releases",
       "publisher": "FDA press releases",
       "first_seen_at": "2026-11-10T22:56:05.330Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-01819746efef4dfbb74e220e1edf832ecdb618324064525de8d4b6d2d0f5bdb7"
@@ -1737,7 +1737,7 @@
       "connector": "FDA press releases",
       "publisher": "FDA press releases",
       "first_seen_at": "2026-11-10T22:56:05.330Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-ce082da7fcd7545db434e50ae2d432f6da7bebe7a04585f62e9cbf2e0ee3fa34"
@@ -1752,7 +1752,7 @@
       "connector": "FDA press releases",
       "publisher": "FDA press releases",
       "first_seen_at": "2026-11-10T22:56:05.330Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-916ca53110d8c57153bf65976990d82a4648f160ac71e4b99b1efc45c74d7c03"
@@ -1767,7 +1767,7 @@
       "connector": "FDA press releases",
       "publisher": "FDA press releases",
       "first_seen_at": "2026-11-10T22:56:05.330Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-4f300c857e7266c78b2116aa35a8c19a4d0a9c8dcf579175eb7b2dfd45a034ee"
@@ -1782,7 +1782,7 @@
       "connector": "FDA press releases",
       "publisher": "FDA press releases",
       "first_seen_at": "2026-11-10T22:56:05.330Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-ce9f6405bb9a22dc9d918d0c6178e94ba1a1740a26f4c6214c01082017e9565c"
@@ -1797,7 +1797,7 @@
       "connector": "FDA press releases",
       "publisher": "FDA press releases",
       "first_seen_at": "2026-11-10T22:56:05.330Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-f21452d48a207b28b4c4821fbe13eb7efa090d953f0b99469894769f72695e6e"
@@ -1812,7 +1812,7 @@
       "connector": "FDA press releases",
       "publisher": "FDA press releases",
       "first_seen_at": "2026-11-10T22:56:05.330Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-d13d305a3a18112855258389df90c378cd9fa811f531d2dccec5c3a2e3b03272"
@@ -1827,7 +1827,7 @@
       "connector": "FDA press releases",
       "publisher": "FDA press releases",
       "first_seen_at": "2026-11-10T22:56:05.330Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-264208413144df3d48963440d72ebb1551c1a5b9c408af40018fc2f8f022d025"
@@ -2067,7 +2067,7 @@
       "connector": "FDA drug news",
       "publisher": "FDA drug news",
       "first_seen_at": "2026-11-10T22:56:05.330Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-ecbab0b413e69b5ef793a00d6efe06577379b6de173430c248e9da43f98dc4fa"
@@ -2097,7 +2097,7 @@
       "connector": "FDA drug news",
       "publisher": "FDA drug news",
       "first_seen_at": "2026-11-10T22:56:05.330Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-0c85d777e647a5a35e1eee041fd7337bc031b14717633aa2850161a3c96f0858"
@@ -2487,7 +2487,7 @@
       "connector": "EMA news",
       "publisher": "EMA news",
       "first_seen_at": "2026-11-10T22:56:05.330Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-ce70ee16b05ec2e3dba3ea8687e497487b9f3b5645d93e321a523533fc2535d6"
@@ -2502,7 +2502,7 @@
       "connector": "EMA news",
       "publisher": "EMA news",
       "first_seen_at": "2026-11-10T22:56:05.330Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-8d9cb4d03842b5985c4f89ae8cd8a2460de9970a7f0a0272f1e5bd715a9b7093"
@@ -2517,7 +2517,7 @@
       "connector": "EMA news",
       "publisher": "EMA news",
       "first_seen_at": "2026-11-10T22:56:05.330Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-80e624d1b8c6c12409d4570ddbb5a0a4eda159de61cf221af1e03f447657f1b4"
@@ -2697,7 +2697,7 @@
       "connector": "MHRA news",
       "publisher": "MHRA news",
       "first_seen_at": "2026-11-10T22:56:05.330Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-7a940955e5c49006de5bcadb2607c525972a0a2b9064bd4e5478964ddd0de5af"
@@ -2772,7 +2772,7 @@
       "connector": "MHRA news",
       "publisher": "MHRA news",
       "first_seen_at": "2026-11-10T22:56:05.330Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-0962b1e20f027937040d37ba93fb119444fe72d82e767a22689a60a5a029dd16"
@@ -2787,7 +2787,7 @@
       "connector": "MHRA news",
       "publisher": "MHRA news",
       "first_seen_at": "2026-11-10T22:56:05.330Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-565c14e9a290f39594e330fad0f317ca2d2006ac6106216717cde9989bb99fb8"
@@ -3267,7 +3267,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-11T13:46:36.060Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-b48e972126537961db8f4835afc279999aade672763dab6ad5fc314145018133"
@@ -3282,7 +3282,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-11T13:46:36.060Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-1efd45e9dc63614a49aa05f934af70da5025dd01302459f49172b4e9b0aa11af"
@@ -3297,7 +3297,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-11T13:46:36.060Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-3070d960e8bcfa5438c43df9117b82d6dd6edfbb1ac769c448d9b4fc9334a478"
@@ -3312,7 +3312,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-11T13:46:36.060Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-dfd57941053856ac50069f35b36e34d649b1bf614b38ff7091d859e33deee6a6"
@@ -3327,7 +3327,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-11T13:46:36.060Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-3ab0b8c033fec85b4d028a63c1815606c4498d90bf4a30de7e1ee48c0591312a"
@@ -3342,7 +3342,7 @@
       "connector": "Fierce Pharma manufacturing",
       "publisher": "Fierce Pharma manufacturing",
       "first_seen_at": "2026-11-11T13:46:36.060Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-9aaccd98acf5d438548de5136a95a6adca74907329f612ef30a727d585c26be8"
@@ -3357,7 +3357,7 @@
       "connector": "BioSpace business",
       "publisher": "BioSpace business",
       "first_seen_at": "2026-11-11T13:46:36.060Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-a46db16ccb608d21410d8496943dfea4ab16028452f7385c815fb9b6c5915309"
@@ -3447,7 +3447,7 @@
       "connector": "Fierce Pharma manufacturing",
       "publisher": "Fierce Pharma manufacturing",
       "first_seen_at": "2026-11-12T07:22:26.772Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-588edb8abfc890077025655c2ce555ee95dbe991b84840e6c9837f44c19b214a"
@@ -4317,7 +4317,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-13T19:49:45.685Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-0033fcffbaae02386ff9944e24ca949a2e1b349ad0da69ce68b79224965f3652"
@@ -4332,7 +4332,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-13T19:49:45.685Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-d5ed82fc19c35e418e96210d0c44eb22a4525f8df5a97d0fb1354faa72768079"
@@ -4827,7 +4827,7 @@
       "connector": "EMA news",
       "publisher": "EMA news",
       "first_seen_at": "2026-11-13T19:49:45.685Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-db05d009bc29e50e997c656a71eb28ab35a4fc9915cac2e51d3e3d844251b830"
@@ -4917,7 +4917,7 @@
       "connector": "FDA drug news",
       "publisher": "FDA drug news",
       "first_seen_at": "2026-11-14T06:39:17.829Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-3d2c61ef8583fac82f0a95924b6ae97a96be73d3ada940b4193aaf1aa4aeaf54"
@@ -4932,7 +4932,7 @@
       "connector": "FDA drug news",
       "publisher": "FDA drug news",
       "first_seen_at": "2026-11-14T06:39:17.829Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-324ea1d23b7175d3fa89fb36f92f8ce65e5b1cb6c5bf0b705d77a6afb5c37959"
@@ -5472,7 +5472,7 @@
       "connector": "FDA drug news",
       "publisher": "FDA drug news",
       "first_seen_at": "2026-11-16T22:15:43.040Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-ac38c7f443f9a0862716f233a184f485c6ba0d50264e404740987ecefdc86594"
@@ -5772,7 +5772,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-17T08:04:05.141Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-88f19fcdb9cb623840a7650ef58dd6b628edb57395817f433509aa98215b0862"
@@ -5787,7 +5787,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-17T08:04:05.141Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-f60e9bb71ff8a75cd79de3211e0ca8605277fd03b14a75985026a004cbf8c9e6"
@@ -5802,7 +5802,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-17T08:04:05.141Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-db5fa129ca9b67fefc931a5d7df0b27816fd5a934f62b437a3feaec4d75b0d20"
@@ -5818,7 +5818,7 @@
       "connector": "openFDA drug recalls",
       "publisher": "openFDA drug recalls",
       "first_seen_at": "2026-11-17T08:04:05.141Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-91dfc5a42d276edf416455ea160b675018a3d6aeb024abc4e1fe16c5bfb2bc54"
     },
@@ -5833,7 +5833,7 @@
       "connector": "openFDA drug recalls",
       "publisher": "openFDA drug recalls",
       "first_seen_at": "2026-11-17T08:04:05.141Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-753a3923a6d497693cd2717301b84ff50836936f76ffc81574f004786cafad91"
     },
@@ -5848,7 +5848,7 @@
       "connector": "openFDA drug recalls",
       "publisher": "openFDA drug recalls",
       "first_seen_at": "2026-11-17T08:04:05.141Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-77e66e5ac94950e61cc38c17c276b121a9e10379c3ea07a0a4548f2b2b14ce2a"
     },
@@ -5863,7 +5863,7 @@
       "connector": "openFDA drug recalls",
       "publisher": "openFDA drug recalls",
       "first_seen_at": "2026-11-17T08:04:05.141Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-9269c84ce224e5185b8680c68aa834148cf543e66a7ac28d3025d22ed2181748"
     },
@@ -5878,7 +5878,7 @@
       "connector": "openFDA drug recalls",
       "publisher": "openFDA drug recalls",
       "first_seen_at": "2026-11-17T08:04:05.141Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-7cc99000f6b347bcecbd0dd249e249a8f0ec8b623c69b91029ca4b9708c95355"
     },
@@ -6042,7 +6042,7 @@
       "connector": "Fierce Pharma manufacturing",
       "publisher": "Fierce Pharma manufacturing",
       "first_seen_at": "2026-11-17T21:02:07.498Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-dea13f1fd217dd2c369019b8181e97b908ef8662029e99ece9f5398878c0509c"
@@ -6192,7 +6192,7 @@
       "connector": "FDA press releases",
       "publisher": "FDA press releases",
       "first_seen_at": "2026-11-17T21:02:07.498Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-c691a9af2620c660053a208c78e8a6236c13209cb2ce0cf39fa2a7425a3970cf"
@@ -6207,7 +6207,7 @@
       "connector": "FDA press releases",
       "publisher": "FDA press releases",
       "first_seen_at": "2026-11-17T21:02:07.498Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-81cfeb5effb94415aea32313ca7f764f3339f9458ef220b0743a68200aa214f2"
@@ -6252,7 +6252,7 @@
       "connector": "FDA drug news",
       "publisher": "FDA drug news",
       "first_seen_at": "2026-11-17T21:02:07.498Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-e8e158bf3114872e59d0a913c8212074d7001c4e753cbb86a4485a988af03498"
@@ -6327,7 +6327,7 @@
       "connector": "FDA drug news",
       "publisher": "FDA drug news",
       "first_seen_at": "2026-11-17T21:02:07.498Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-37172a34dd1c1ced52a7cbcecd075001456c163d1fce29d1e657a52b5c66127c"
@@ -6747,7 +6747,7 @@
       "connector": "EMA news",
       "publisher": "EMA news",
       "first_seen_at": "2026-11-17T21:02:07.498Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-0e9edc90f1ac02d9cee51d3ea74acc8177d92b63a2b8aade5831eea0322e655b"
@@ -6777,7 +6777,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-18T07:39:43.533Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-6f0c6e02051f63be03fc9f11e8ea9de38e32a3c3179a323b25c16c05c950a611"
@@ -6792,7 +6792,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-18T07:39:43.533Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-19f5ab1bfd124ca9f4958702696b6bd9043a5ed64a3b07f06e1e0932e151f830"
@@ -7122,7 +7122,7 @@
       "connector": "FDA recalls",
       "publisher": "FDA recalls",
       "first_seen_at": "2026-11-18T20:40:34.279Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-95052c7deb8d55b802c2ceb6eeea2b03f199779822a37302bd92b728fb5a7c5a"
@@ -7287,7 +7287,7 @@
       "connector": "FDA press releases",
       "publisher": "FDA press releases",
       "first_seen_at": "2026-11-19T07:36:06.037Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-f708a65a79aa0b1902b884b339f81ca806eeb3e962998ed4287dd669645f5e8e"
@@ -7317,7 +7317,7 @@
       "connector": "FDA drug news",
       "publisher": "FDA drug news",
       "first_seen_at": "2026-11-19T07:36:06.037Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-87ce5f70b23a2e6de7315db8baefdc81a86187c06aa598f85f6e05975c462377"
@@ -7347,7 +7347,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-19T20:45:22.885Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-484a5a680115e65b002b1a8a45b753d3317e2d9354a845e508ae7d8ada12638e"
@@ -7362,7 +7362,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-19T20:45:22.885Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-e8031919a7490efd86f3a6cecaab0d49ce03e9e32490b34fcf24638a64f2b7e7"
@@ -7377,7 +7377,7 @@
       "connector": "Fierce Pharma manufacturing",
       "publisher": "Fierce Pharma manufacturing",
       "first_seen_at": "2026-11-19T20:45:22.885Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-b055d693f64c5fc35d0c69cd725ed4e57086158a580ed1439d8d8b348f792247"
@@ -7587,7 +7587,7 @@
       "connector": "MHRA news",
       "publisher": "MHRA news",
       "first_seen_at": "2026-11-19T20:45:22.885Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-8c70aff211f9575b2430690e05c3223ae47ef09b0078f84c4f390ac3b2533894"
@@ -7737,7 +7737,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-20T07:27:25.869Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-6a0e324afc343cf5587bd749e7cddea13812a8cb29c5f200cf2a74109070803b"
@@ -7752,7 +7752,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-20T07:27:25.869Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-570bf9a1a28a44bfa83bf2b7ee490d5f02fd3a365a845745c71451a024a61840"
@@ -7917,7 +7917,7 @@
       "connector": "Fierce Pharma",
       "publisher": "Fierce Pharma",
       "first_seen_at": "2026-11-20T20:29:34.229Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-82c7f40cbca113f7cb050da1efa85852ddf7759de4136ad99c1d215310a9b465"
@@ -7932,7 +7932,7 @@
       "connector": "Fierce Pharma",
       "publisher": "Fierce Pharma",
       "first_seen_at": "2026-11-20T20:29:34.229Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-492d30952104a9a263df114794f70f5a0ead76c85a71e5c31d6fd479138d6c1d"
@@ -8037,7 +8037,7 @@
       "connector": "FDA recalls",
       "publisher": "FDA recalls",
       "first_seen_at": "2026-11-20T20:29:34.229Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-69ad3ff5f23dc5f00fb0b6d414bd5504bc1f27df4c350a5d02b475950b22ca58"
@@ -8338,7 +8338,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-20T20:29:34.229Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-f513103c48506d22a313bcc2ac7535f32e0c78f89c037fb504bc1bb7a695e8cf"
     },
@@ -8353,7 +8353,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-20T20:29:34.229Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-cab8adcb9845ad1533285010b134f2de84b86d21cd3a7671914f058b14325284"
     },
@@ -8443,7 +8443,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-20T20:29:34.229Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-6083511837b6556bdcb09a99f964298ed5de74d866d0a3db39a17b39cafcf846"
     },
@@ -8472,7 +8472,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-21T07:21:20.829Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-41a030980de32c30b25374c685f9b3c423d865d619dbb27a96eb0a02003f82bb"
@@ -8487,7 +8487,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-21T07:21:20.829Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-477001807ff35251c92dfab4405083fce21b2b963e12189d0834efe88be1991e"
@@ -8518,7 +8518,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-21T07:21:20.829Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-2916db92068cf11ecd755ea9741e1d24f582d7558178fdca53863309fcc18072"
     },
@@ -8533,7 +8533,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-21T07:21:20.829Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-4920858203bba4507ca2849cf3bd14c037a7d5acbce426db5c8b2c415f52c1fa"
     },
@@ -8548,7 +8548,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-21T07:21:20.829Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-1662a3da24107b8336aa167ba38bd51e001c08592d5f68b264e9d69a4c5088b3"
     },
@@ -8563,7 +8563,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-21T07:21:20.829Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-8b4bf532d11aab8c60ee9be17044eea13aaa72d65c237afbe5dc22c3db1bbf7a"
     },
@@ -8578,7 +8578,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-21T07:21:20.829Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-26ca19081673cb72b20e43ddfdd4ec33a06fffe062bc76acb24711d407d958f0"
     },
@@ -8593,7 +8593,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-21T07:21:20.829Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-598c1bf3965aafd7c77e893050448ebe5690841d85bbba91aab31b9b55a5ec51"
     },
@@ -8607,7 +8607,7 @@
       "connector": "BioPharma Dive",
       "publisher": "BioPharma Dive",
       "first_seen_at": "2026-11-22T07:02:01.513Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-72850dcff323d0730249234d55c12b9b0bb35ec79c74c48cdf028a8d2289256e"
@@ -8667,7 +8667,7 @@
       "connector": "BioPharma Dive",
       "publisher": "BioPharma Dive",
       "first_seen_at": "2026-11-24T00:00:03.252Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-860f05a7ee9dd48a961ab6ba7eadaf3102db536da18618d7c6d774202a3020e6"
@@ -8682,7 +8682,7 @@
       "connector": "BioPharma Dive",
       "publisher": "BioPharma Dive",
       "first_seen_at": "2026-11-24T00:00:03.252Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-83a624f61771c927329d294e565d71898f417a94598e8f13bd6ad1fa1c65f72b"
@@ -8727,7 +8727,7 @@
       "connector": "GEN",
       "publisher": "GEN",
       "first_seen_at": "2026-11-24T00:00:03.252Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-b657e9531db17e321621bb2f1fed8644bb506fbd314b580ecd3e7f3ada8c41e0"
@@ -8742,7 +8742,7 @@
       "connector": "GEN",
       "publisher": "GEN",
       "first_seen_at": "2026-11-24T00:00:03.252Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-5fd0bf0cf536ba2425dcd130857be00a636fe206f98ed30343a3ec7aa264a45b"
@@ -8757,7 +8757,7 @@
       "connector": "GEN",
       "publisher": "GEN",
       "first_seen_at": "2026-11-24T00:00:03.252Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-3df6c4e2b9004c6b8d3b03a13a77bbeecba7ef5808403e0022788c5bbb7661b0"
@@ -8772,7 +8772,7 @@
       "connector": "FDA press releases",
       "publisher": "FDA press releases",
       "first_seen_at": "2026-11-24T00:00:03.252Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-30a48a331475b34f8a16d41ca4afe0934a5eef858b4c721d178a322a31bd21bd"
@@ -8847,7 +8847,7 @@
       "connector": "FDA drug news",
       "publisher": "FDA drug news",
       "first_seen_at": "2026-11-24T00:00:03.252Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-ba5151de750cac24fe2a3df2320514a016f57fb65fb976f181095fcae0a5cb5b"
@@ -9192,7 +9192,7 @@
       "connector": "MHRA news",
       "publisher": "MHRA news",
       "first_seen_at": "2026-11-24T00:00:03.252Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-16c16885b3f17d4b1cc5c2885e9da87f47288ac6da2184e4efb5addef018f67a"
@@ -9207,7 +9207,7 @@
       "connector": "MHRA news",
       "publisher": "MHRA news",
       "first_seen_at": "2026-11-24T00:00:03.252Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-b48e6452ff0a4dc6ae14a104b93c4c72458a92cf05509f0137a937acd45796c5"
@@ -9216,13 +9216,13 @@
       "title": "Guidance: Apply for the AI in Mental Health Airlock",
       "url": "https://www.gov.uk/government/publications/apply-for-the-ai-in-mental-health-airlock",
       "published_at": null,
-      "updated_at": "2026-11-23T16:40:36.000Z",
+      "updated_at": "2026-11-26T15:55:58.000Z",
       "kind": "fda",
       "publisher_country": "United Kingdom",
       "connector": "MHRA news",
       "publisher": "MHRA news",
       "first_seen_at": "2026-11-24T00:00:03.252Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-977bcd5d8d537021bee68a0aa058db663439f5526eb16166efb6dbf59f2af0bd"
@@ -9237,7 +9237,7 @@
       "connector": "MHRA news",
       "publisher": "MHRA news",
       "first_seen_at": "2026-11-24T00:00:03.252Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-33ffcb2e2eebaa731271f08c65d13aeb95eb31f6b4291f0cb6699da11afe3220"
@@ -9252,7 +9252,7 @@
       "connector": "MHRA news",
       "publisher": "MHRA news",
       "first_seen_at": "2026-11-24T00:00:03.252Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-bb531a2345bf28fe92eef3aa27c5ca7cd0838852ede807316610011ec2cfaa0d"
@@ -9282,7 +9282,7 @@
       "connector": "Fierce Pharma manufacturing",
       "publisher": "Fierce Pharma manufacturing",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-f3e675412689a842e7274d00223ac390ddd98695a1dd2fd93a75ac4478e22215"
@@ -9297,7 +9297,7 @@
       "connector": "BioPharma Dive",
       "publisher": "BioPharma Dive",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-688442784007fc07b101e70c0f72da4b555744f88f2b80939c0b42d6ac8675bf"
@@ -9312,7 +9312,7 @@
       "connector": "BioSpace business",
       "publisher": "BioSpace business",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-b1923f1ac0d6cb4ddac20d234f705cef3d78dc929d06954fbb80cd568785ce03"
@@ -9327,7 +9327,7 @@
       "connector": "GEN",
       "publisher": "GEN",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-79b5447f4cd05d25a6de4637bea85e6037af71079cb2506bbeafe2bfe1d18f60"
@@ -9342,7 +9342,7 @@
       "connector": "GEN",
       "publisher": "GEN",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-4739570cc082bff943f6d34c4aa9352da3fc3fe38fcfd7df5c14aa9d5b37c83c"
@@ -9357,7 +9357,7 @@
       "connector": "GEN",
       "publisher": "GEN",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-0f79fd29d9cefdcb95c50fa16b5cf67d50e4a7389c78073f8379c6c6c395646f"
@@ -9372,7 +9372,7 @@
       "connector": "GEN",
       "publisher": "GEN",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-f8146ae4357528a7b31bf50d19147a8f0d0060b9add9d346db84467647509583"
@@ -9387,7 +9387,7 @@
       "connector": "FDA drug news",
       "publisher": "FDA drug news",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-a860968a4cfe30b532d4b398c2e24dc4da37dd527ecb8754b9e95e9469124539"
@@ -9402,7 +9402,7 @@
       "connector": "FDA recalls",
       "publisher": "FDA recalls",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-b992a50943c00382dfb2283b717bfa414ab40b837ce02e83c7faee474a7a2af4"
@@ -9492,7 +9492,7 @@
       "connector": "FDA inspection records",
       "publisher": "FDA inspection records",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-a15a2826368fdf6f46f6fe71ec5360982828825b1e98611702afa5aa29bcdf13"
@@ -9507,7 +9507,7 @@
       "connector": "FDA inspection records",
       "publisher": "FDA inspection records",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-9ca4403c72d4c365e85fa49b755ef404d2e6a3b3b2e7438ca2988597f980ba36"
@@ -9522,7 +9522,7 @@
       "connector": "FDA inspection records",
       "publisher": "FDA inspection records",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-ea58bba6ad8c3a47da3e15e9fb2fd022b00bf3714a47cba4d244d61babeaeb6d"
@@ -9537,7 +9537,7 @@
       "connector": "FDA inspection records",
       "publisher": "FDA inspection records",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-fb5d8ebfdf119891917ada8902c0bc8b31e10cd633039615c72b2f96793cc3fa"
@@ -9552,7 +9552,7 @@
       "connector": "FDA inspection records",
       "publisher": "FDA inspection records",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-5cc3af42bfd86487e92bfced396d4de8aeff7b6a5ae32e22f766d1cf04182ee5"
@@ -9567,7 +9567,7 @@
       "connector": "FDA inspection records",
       "publisher": "FDA inspection records",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-79976a033e0335022df6ea198c9339448742fcd28cf1766f83f386f962835d3b"
@@ -9582,7 +9582,7 @@
       "connector": "FDA inspection records",
       "publisher": "FDA inspection records",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-b64e97a623103c8dec2b58d047bbe2dd56f0410e9d184ba416f700a877025d36"
@@ -9597,7 +9597,7 @@
       "connector": "FDA inspection records",
       "publisher": "FDA inspection records",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-feb5196ccfc3fb3dbb0c6285ffbaad2aebdc8f951df880bec181567921c07cd0"
@@ -9612,7 +9612,7 @@
       "connector": "FDA inspection records",
       "publisher": "FDA inspection records",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-2ad15f031d8ab2a152db364d37c6a37ae16faeb0f474eb8d4e66c915900dc52c"
@@ -9627,7 +9627,7 @@
       "connector": "FDA inspection records",
       "publisher": "FDA inspection records",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-c41ed416fb9c7fc91b94c3dd6719a673c29b4b37a072d464a4c26a7fdfdfc873"
@@ -9642,7 +9642,7 @@
       "connector": "FDA inspection records",
       "publisher": "FDA inspection records",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-dd13044c47d10abc48c45400130201365fd6a91c0fc8d14349ec4a9014e89b57"
@@ -9657,7 +9657,7 @@
       "connector": "FDA inspection records",
       "publisher": "FDA inspection records",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-a1531f16b1145e86faccdd056e6d8d70ec3f26b1a5c64410acaa288812a07648"
@@ -9672,7 +9672,7 @@
       "connector": "FDA inspection records",
       "publisher": "FDA inspection records",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-16b70755ca860aac70f938c246f6748c5ff30b69bdfa78608b0a9ba43a38235e"
@@ -9687,7 +9687,7 @@
       "connector": "FDA inspection records",
       "publisher": "FDA inspection records",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-987251488eb6241c44ce7e397907dcc27cccce57f16d4fc88abfbea7e959b9ac"
@@ -9702,7 +9702,7 @@
       "connector": "FDA inspection records",
       "publisher": "FDA inspection records",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-28a9fc70165578887ccbf40e57df9399eb8f34aa80022724cdba103cfe60d124"
@@ -9717,7 +9717,7 @@
       "connector": "FDA inspection records",
       "publisher": "FDA inspection records",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-f9fb8b867e6835bf5be91806f5ab96117597744b5e04e66eb35dd4b0d427859b"
@@ -9732,7 +9732,7 @@
       "connector": "FDA inspection records",
       "publisher": "FDA inspection records",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-1e050d85590f76bd7c2f923b0fbcc0cb2afcc002f4750bedb802fd1b27915922"
@@ -9747,7 +9747,7 @@
       "connector": "FDA inspection records",
       "publisher": "FDA inspection records",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-b78429229b0148b996f9ff673688758bd4804c2a5e1bb6f9374c04f417a6c845"
@@ -9762,7 +9762,7 @@
       "connector": "FDA inspection records",
       "publisher": "FDA inspection records",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-a094f900bbc67d952965e3d69b205141ad56e6709beab9fda3cdc587f3d309d7"
@@ -9792,7 +9792,7 @@
       "connector": "MHRA news",
       "publisher": "MHRA news",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-3c6e7fdc961e91bdab64ce1a9975702577dfc9102fe8d425d5a4c434f9a8c13b"
@@ -9807,7 +9807,7 @@
       "connector": "MHRA news",
       "publisher": "MHRA news",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-bff16202da45b83b6d107f40f1eaba165f25b54edea9d46c7a965fa93350a242"
@@ -9822,7 +9822,7 @@
       "connector": "MHRA news",
       "publisher": "MHRA news",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-e0e44fbcb8a792d0df3bec17b0c262ffd890a2271c63c3494dcfa3acb5f220f6"
@@ -9837,7 +9837,7 @@
       "connector": "MHRA news",
       "publisher": "MHRA news",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-ac107347f8655f48dfd4e45ef313d2477a9f7367a4e900ea7d16055fd228596e"
@@ -9852,7 +9852,7 @@
       "connector": "MHRA news",
       "publisher": "MHRA news",
       "first_seen_at": "2026-11-24T22:33:53.161Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-24152992a83bc27ff7d49afa35d3090695028d96949453567123aa6408cb7f2c"
@@ -9867,7 +9867,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-4e924f2211efe6e675a53d9bd3252317a55179717d9b1d3c195604f2ee4cab43"
@@ -9882,7 +9882,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-75f7671ce8af6d6081fff9b3549f53f3a541d8c9e613b58a5fd3166ec4c91deb"
@@ -9897,7 +9897,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-e3d085a58f55f9d70cf5c60b73473f7fc4560fd8e5fa50c0dd1244740d705723"
@@ -9913,7 +9913,7 @@
       "connector": "openFDA drug recalls",
       "publisher": "openFDA drug recalls",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-705ffc67decb383884850125813598f4df4cfa087035a0aa0b75b51d12620220"
     },
@@ -9928,7 +9928,7 @@
       "connector": "openFDA drug recalls",
       "publisher": "openFDA drug recalls",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-1d874249c6af907b98872a5f910d275820b999275663a0f0b8e2cd010f1e6e2b"
     },
@@ -9943,7 +9943,7 @@
       "connector": "openFDA drug recalls",
       "publisher": "openFDA drug recalls",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-022d24a4433e4c8a39aa22ee964d45c6961baaf2a4de254140f16e64f7998cae"
     },
@@ -9958,7 +9958,7 @@
       "connector": "openFDA drug recalls",
       "publisher": "openFDA drug recalls",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-59fc42de2c89b46875e405acc20ed1d87caf4bcc5da8978e3fa8ec0af4b8efab"
     },
@@ -9972,7 +9972,7 @@
       "connector": "BioPharma Dive",
       "publisher": "BioPharma Dive",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-a0274444a30196415d5a89a444a6831874089e913c9dfcfae31876bd5c5bb00a"
@@ -9987,7 +9987,7 @@
       "connector": "BioSpace business",
       "publisher": "BioSpace business",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-2fa70487688e9254c1043499602cd1a0e12353fc174bd1d7a8b970b9f9e3f3c5"
@@ -10002,7 +10002,7 @@
       "connector": "BioSpace business",
       "publisher": "BioSpace business",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-3f5ed27133eb4d5ba8a777b394f8c8581b461b03c5d2fba1d9dcb48f8b9faf39"
@@ -10017,7 +10017,7 @@
       "connector": "FDA drug news",
       "publisher": "FDA drug news",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-622c63a89f920f62ead87d6a142eabc946b339cfe5f8a26560fbf101caf3903f"
@@ -10033,7 +10033,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-b10070fb41f5b6c6afd4a6ee77848b86c124a26016bfb34774d481a7a4a2ccac"
     },
@@ -10048,7 +10048,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-c1eab3e1dbddd49bbd4cec850a5b1091b5d292aff00d786bd74c01eb0d28b7cf"
     },
@@ -10063,7 +10063,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-c90a3de5424d57689d0b190e81ea91ad428a72d3492d4ed2617047f0f1b78096"
     },
@@ -10078,7 +10078,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-ce44990d0fce035a62ac83f0bc1da24fbfaa1c33953a8bc672e899efe1fde1bc"
     },
@@ -10093,7 +10093,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-544fd4195905820a707f1e13bc977ad90768f8c52d334d8ad9ff93d93b0e561b"
     },
@@ -10108,7 +10108,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-9f303545cc8c0396ee4223f86bcf07e2da0d937e8b87868b27f551c46e2aede7"
     },
@@ -10123,7 +10123,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-391dc0a1736f4288e5c5a67a831a920149e8ce50ada13a1c32704b7cbb7f29bb"
     },
@@ -10138,7 +10138,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-2a8a498d7f70ea25611ad22bd0d543d8a436791725b640f6e40c0a0c1cbe648c"
     },
@@ -10153,7 +10153,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-af655b234503860eb45b45f392a9264c82c68d606423dcc2763f40be6c377436"
     },
@@ -10168,7 +10168,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-c45468843bbeb924e1a7282e0862a5019607c53b9c63a7eb553c0bde1b6c397f"
     },
@@ -10183,7 +10183,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-c4649accf025d26a8c3cfcd849fba2f108328668aaf0c8557c1d504f819c886c"
     },
@@ -10198,7 +10198,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-3aa8104e077e252569eec41a53b5f9a57afcaac26c7e2425d2246387a36f64ed"
     },
@@ -10213,7 +10213,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-2e9be685deb915095b46def8bf60f06bfc8639aeaf46fcfd375fd6044690fb61"
     },
@@ -10228,7 +10228,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-e0329a16a9f299543ce13bee8e660f6bcd6c3c440cd2489e8389b45f8a007a31"
     },
@@ -10243,7 +10243,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-a2b1aea7a2d7cac453cee5dc5cb8bdcbf5db0d026b56badf6c13447af541e533"
     },
@@ -10258,7 +10258,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-dc02f7f3a51e56c0231f7340857eae7f8ab1fb797d7f8237a60bf8cdcedc0476"
     },
@@ -10273,7 +10273,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-b337ae1697946b552c2b4b1cc115f487eaa882c0e16cce2ed1ef2585cdb3fb3d"
     },
@@ -10288,7 +10288,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-31e411c91b9862a5ce1c9d8ae75d7acf26a2c3187054deaf5a868c0d75d13221"
     },
@@ -10303,7 +10303,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-1685b30f8eee190c62668292ebbf9d4158a45fb0c54ea174e254770f4277a51a"
     },
@@ -10318,7 +10318,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-6e074fcdd27e0e2a320392310c6f74bff7b99482edf33f9a8abe369ff6bf3cbc"
     },
@@ -10333,7 +10333,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-4d3d90e95cb1b94ff5faaa07d550f381ea1e6172c265dd5301ef1d0dea609bf5"
     },
@@ -10348,7 +10348,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-5776b9340d1a82fbc98de0e2a0c84c08f7e6e390c527de06e0637cd01181dacb"
     },
@@ -10363,7 +10363,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-b15a95b3b63038ffd723c433d47c8a75742584d2a5e74aa03580359a1e7c071a"
     },
@@ -10378,7 +10378,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-61ea2d1eceb141953298bab494da5f69106cb2a977f33b12966b95433fa76b2f"
     },
@@ -10393,7 +10393,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-25T08:46:32.976Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-d448aeb0862d38f3e114fb662fe802c0937be6edfc551c37dcb3e1882cbb0d87"
     },
@@ -10407,7 +10407,7 @@
       "connector": "BioPharma Dive",
       "publisher": "BioPharma Dive",
       "first_seen_at": "2026-11-25T21:48:22.331Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-7e44339318fae7826d1e541b14e2a1b3d4aa011b5895e36417fcf5c631dda5c2"
@@ -10422,7 +10422,7 @@
       "connector": "GEN",
       "publisher": "GEN",
       "first_seen_at": "2026-11-25T21:48:22.331Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-9f2ce66ed33cdbec3e2ffe4ff8eccecf24cb04cfa1be22b03c9395317c5bbee1"
@@ -10437,7 +10437,7 @@
       "connector": "GEN",
       "publisher": "GEN",
       "first_seen_at": "2026-11-25T21:48:22.331Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-ae5c3d220b728811547205fa7ef1283628ba09aec1dd709aef5ced17f92c511b"
@@ -10452,7 +10452,7 @@
       "connector": "GEN",
       "publisher": "GEN",
       "first_seen_at": "2026-11-25T21:48:22.331Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-f846d92fbc1ddce906692696cabbddfad18798653b4325631196b766a0737648"
@@ -10467,7 +10467,7 @@
       "connector": "FDA drug news",
       "publisher": "FDA drug news",
       "first_seen_at": "2026-11-25T21:48:22.331Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-98f1ab7c89cff278c759765c2f2ff80b6e483f16cde6710d917f8467e5f02be1"
@@ -10482,7 +10482,7 @@
       "connector": "FDA drug news",
       "publisher": "FDA drug news",
       "first_seen_at": "2026-11-25T21:48:22.331Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-8ca8a19a2f43122f212c3ac6a824acbae73069cc7f7909df31d3bf22d345da8a"
@@ -10497,7 +10497,7 @@
       "connector": "FDA drug news",
       "publisher": "FDA drug news",
       "first_seen_at": "2026-11-25T21:48:22.331Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-aa53c565ebf3d3a56b4369de22a574d3e6fb72b86fb012c979dd573b75ae4ad4"
@@ -10512,7 +10512,7 @@
       "connector": "FDA drug news",
       "publisher": "FDA drug news",
       "first_seen_at": "2026-11-25T21:48:22.331Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-0e6a9744a4d0acd85692c9da8a58fa95653202facdcdf96ad5f1cac35ac55ad4"
@@ -10527,7 +10527,7 @@
       "connector": "FDA drug news",
       "publisher": "FDA drug news",
       "first_seen_at": "2026-11-25T21:48:22.331Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-18174291e0dc630ee9c073776f96f699f84bf899255e721dfc3d6a8993a296ba"
@@ -10542,7 +10542,7 @@
       "connector": "FDA drug news",
       "publisher": "FDA drug news",
       "first_seen_at": "2026-11-25T21:48:22.331Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-4e7de66d95c4535494cdf08fd4294f1adc933e6371dd927889f5dc857cf4362a"
@@ -10557,7 +10557,7 @@
       "connector": "FDA drug news",
       "publisher": "FDA drug news",
       "first_seen_at": "2026-11-25T21:48:22.331Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-2fad011090ff596ad36791c0af09082ff30e160e5375a0c15a8c5b61bb71c7fb"
@@ -10572,7 +10572,7 @@
       "connector": "FDA drug news",
       "publisher": "FDA drug news",
       "first_seen_at": "2026-11-25T21:48:22.331Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-c4050edfdfd23258cfcd2aa2ba8810bf17f3b51bbfc5ae3ad62a81d70ce3bc20"
@@ -10587,7 +10587,7 @@
       "connector": "FDA drug news",
       "publisher": "FDA drug news",
       "first_seen_at": "2026-11-25T21:48:22.331Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-a9f5edbe801f6368271a8081aa8dbf1af899705c827016f7a4aa6a938ec05ab4"
@@ -10602,7 +10602,7 @@
       "connector": "FDA inspection records",
       "publisher": "FDA inspection records",
       "first_seen_at": "2026-11-25T21:48:22.331Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-a0525a37f93f8684ff19253f0c1e78cc8133a35a9cd1b2cda5799411c027125a"
@@ -10617,7 +10617,7 @@
       "connector": "MHRA news",
       "publisher": "MHRA news",
       "first_seen_at": "2026-11-25T21:48:22.331Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-b2981b678ee282ab1a557c9d1903867d88e98f561334e7ae9d2bc5d76d9c9093"
@@ -10632,7 +10632,7 @@
       "connector": "MHRA news",
       "publisher": "MHRA news",
       "first_seen_at": "2026-11-25T21:48:22.331Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-51b80d414b18af038f5b1d571030e6540cd77c526eb02dfe6800463a21994eb2"
@@ -10647,7 +10647,7 @@
       "connector": "MHRA news",
       "publisher": "MHRA news",
       "first_seen_at": "2026-11-25T21:48:22.331Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-66ed996915f68ee6e778bfce91dde731312e3b4b1b5842c2f1d4b46f430e0648"
@@ -10662,7 +10662,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-26T08:32:51.338Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-35a3e16a96e7113a0358ad6adf4400709349f8dcbb38941e655dd6ea4dd8f52c"
@@ -10677,7 +10677,7 @@
       "connector": "Federal Register",
       "publisher": "Federal Register",
       "first_seen_at": "2026-11-26T08:32:51.338Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "date_basis": "Source-supplied publication date",
       "id": "public-10a16edce49aa3f370bb22f5d790650a31189b648073e63a9787f879de80f22d"
@@ -10693,7 +10693,7 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-26T08:32:51.338Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-2bfc8016a0fbee0d40cd3b021b6c71f9a978421ef4ac6571255e87fb4dd87495"
     },
@@ -10708,146 +10708,191 @@
       "connector": "openFDA drug approvals",
       "publisher": "openFDA drug approvals",
       "first_seen_at": "2026-11-26T08:32:51.338Z",
-      "ingested_at": "2026-11-26T08:32:51.338Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
       "public_source": true,
       "id": "public-3d312f6e9a8d0c4d7a3add8ae794874e73af19833171d194a94491ae0a7d6c6a"
+    },
+    {
+      "title": "MHRA Safety Roundup: November 2026",
+      "url": "https://www.gov.uk/drug-device-alerts/mhra-safety-roundup-november-2026",
+      "published_at": null,
+      "updated_at": "2026-11-26T13:59:39.000Z",
+      "kind": "fda",
+      "publisher_country": "United Kingdom",
+      "connector": "MHRA news",
+      "publisher": "MHRA news",
+      "first_seen_at": "2026-11-26T21:41:47.978Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
+      "public_source": true,
+      "date_basis": "Source-supplied publication date",
+      "id": "public-91c5532ec3517f914fb42a3ee3101735a984b17b187105c8b8be4b28b56bf2d5"
+    },
+    {
+      "title": "MHRA authorises obicetrapib and ezetimibe for adults with high cholesterol when current treatments are insufficient",
+      "url": "https://www.gov.uk/government/news/mhra-authorises-obicetrapib-and-ezetimibe-for-adults-with-high-cholesterol-when-current-treatments-are-insufficient",
+      "published_at": null,
+      "updated_at": "2026-11-26T12:23:39.000Z",
+      "kind": "fda",
+      "publisher_country": "United Kingdom",
+      "connector": "MHRA news",
+      "publisher": "MHRA news",
+      "first_seen_at": "2026-11-26T21:41:47.978Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
+      "public_source": true,
+      "date_basis": "Source-supplied publication date",
+      "id": "public-b944ab6b52b5ececc36a5a2410cb822c38d7e80ae23677bc7237217c163b713b"
+    },
+    {
+      "title": "Obicetrapib approved to lower LDL-cholesterol in adults with primary hypercholesterolaemia and/or mixed dyslipidaemia",
+      "url": "https://www.gov.uk/government/news/obicetrapib-approved-to-lower-ldl-cholesterol-in-adults-with-primary-hypercholesterolaemia-andor-mixed-dyslipidaemia",
+      "published_at": null,
+      "updated_at": "2026-11-26T11:11:24.000Z",
+      "kind": "fda",
+      "publisher_country": "United Kingdom",
+      "connector": "MHRA news",
+      "publisher": "MHRA news",
+      "first_seen_at": "2026-11-26T21:41:47.978Z",
+      "ingested_at": "2026-11-26T21:41:47.978Z",
+      "public_source": true,
+      "date_basis": "Source-supplied publication date",
+      "id": "public-d0ed9d1cc0d141bdd942eb7a74a7670f38dd472774f5c5650fe7c384126ccd9f"
     }
   ],
   "sources": [
     {
       "name": "Federal Register",
       "url": "https://www.federalregister.gov/api/v1/documents.json?per_page=40&order=newest&conditions%5Bagencies%5D%5B%5D=food-and-drug-administration",
-      "at": "2026-11-26T08:32:51.338Z",
+      "at": "2026-11-26T21:41:47.978Z",
       "status": "records retrieved",
       "count": 40,
       "terms": "https://www.federalregister.gov/reader-aids/developer-resources/rest-api",
-      "last_ok_at": "2026-11-26T08:32:51.338Z"
+      "last_ok_at": "2026-11-26T21:41:47.978Z"
     },
     {
       "name": "openFDA drug recalls",
       "url": "https://api.fda.gov/drug/enforcement.json?limit=40&sort=report_date:desc",
-      "at": "2026-11-26T08:32:51.338Z",
+      "at": "2026-11-26T21:41:47.978Z",
       "status": "records retrieved",
       "count": 40,
       "terms": "https://open.fda.gov/terms/",
-      "last_ok_at": "2026-11-26T08:32:51.338Z"
+      "last_ok_at": "2026-11-26T21:41:47.978Z"
     },
     {
       "name": "Fierce Pharma manufacturing",
       "url": "https://www.fiercepharma.com/rss/manufacturing/xml",
-      "at": "2026-11-26T08:32:51.338Z",
+      "at": "2026-11-26T21:41:47.978Z",
       "status": "records retrieved",
       "count": 25,
       "terms": "https://www.fiercepharma.com/rss/manufacturing/xml",
-      "last_ok_at": "2026-11-26T08:32:51.338Z"
+      "last_ok_at": "2026-11-26T21:41:47.978Z"
     },
     {
       "name": "Fierce Pharma",
       "url": "https://www.fiercepharma.com/rss/pharma/xml",
-      "at": "2026-11-26T08:32:51.338Z",
+      "at": "2026-11-26T21:41:47.978Z",
       "status": "records retrieved",
       "count": 2,
       "terms": "https://www.fiercepharma.com/rss/pharma/xml",
-      "last_ok_at": "2026-11-26T08:32:51.338Z"
+      "last_ok_at": "2026-11-26T21:41:47.978Z"
     },
     {
       "name": "Contract Pharma",
       "url": "https://www.contractpharma.com/feed/",
-      "at": "2026-11-26T08:32:51.338Z",
+      "at": "2026-11-26T21:41:47.978Z",
       "status": "records retrieved",
       "count": 10,
       "terms": "https://www.contractpharma.com/feed/",
-      "last_ok_at": "2026-11-26T08:32:51.338Z"
+      "last_ok_at": "2026-11-26T21:41:47.978Z"
     },
     {
       "name": "BioPharma Dive",
       "url": "https://www.biopharmadive.com/feeds/news/",
-      "at": "2026-11-26T08:32:51.338Z",
+      "at": "2026-11-26T21:41:47.978Z",
       "status": "records retrieved",
       "count": 6,
       "terms": "https://www.biopharmadive.com/feeds/news/",
-      "last_ok_at": "2026-11-26T08:32:51.338Z"
+      "last_ok_at": "2026-11-26T21:41:47.978Z"
     },
     {
       "name": "BioSpace business",
       "url": "https://www.biospace.com/business.rss",
-      "at": "2026-11-26T08:32:51.338Z",
+      "at": "2026-11-26T21:41:47.978Z",
       "status": "records retrieved",
       "count": 4,
       "terms": "https://www.biospace.com/business.rss",
-      "last_ok_at": "2026-11-26T08:32:51.338Z"
+      "last_ok_at": "2026-11-26T21:41:47.978Z"
     },
     {
       "name": "GEN",
       "url": "https://www.genengnews.com/feed/",
-      "at": "2026-11-26T08:32:51.338Z",
+      "at": "2026-11-26T21:41:47.978Z",
       "status": "records retrieved",
       "count": 10,
       "terms": "https://www.genengnews.com/feed/",
-      "last_ok_at": "2026-11-26T08:32:51.338Z"
+      "last_ok_at": "2026-11-26T21:41:47.978Z"
     },
     {
       "name": "FDA press releases",
       "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml",
-      "at": "2026-11-26T08:32:51.338Z",
+      "at": "2026-11-26T21:41:47.978Z",
       "status": "records retrieved",
       "count": 12,
       "terms": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml",
-      "last_ok_at": "2026-11-26T08:32:51.338Z"
+      "last_ok_at": "2026-11-26T21:41:47.978Z"
     },
     {
       "name": "FDA drug news",
       "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/drugs/rss.xml",
-      "at": "2026-11-26T08:32:51.338Z",
+      "at": "2026-11-26T21:41:47.978Z",
       "status": "records retrieved",
       "count": 20,
       "terms": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/drugs/rss.xml",
-      "last_ok_at": "2026-11-26T08:32:51.338Z"
+      "last_ok_at": "2026-11-26T21:41:47.978Z"
     },
     {
       "name": "FDA recalls",
       "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/recalls/rss.xml",
-      "at": "2026-11-26T08:32:51.338Z",
+      "at": "2026-11-26T21:41:47.978Z",
       "status": "records retrieved",
       "count": 3,
       "terms": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/recalls/rss.xml",
-      "last_ok_at": "2026-11-26T08:32:51.338Z"
+      "last_ok_at": "2026-11-26T21:41:47.978Z"
     },
     {
       "name": "FDA inspection records",
       "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/ora-foia-electronic-reading-room/rss.xml",
-      "at": "2026-11-26T08:32:51.338Z",
+      "at": "2026-11-26T21:41:47.978Z",
       "status": "records retrieved",
       "count": 20,
       "terms": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/ora-foia-electronic-reading-room/rss.xml",
-      "last_ok_at": "2026-11-26T08:32:51.338Z"
+      "last_ok_at": "2026-11-26T21:41:47.978Z"
     },
     {
       "name": "EMA news",
       "url": "https://www.ema.europa.eu/en/news.xml",
-      "at": "2026-11-26T08:32:51.338Z",
+      "at": "2026-11-26T21:41:47.978Z",
       "status": "records retrieved",
       "count": 5,
       "terms": "https://www.ema.europa.eu/en/news.xml",
-      "last_ok_at": "2026-11-26T08:32:51.338Z"
+      "last_ok_at": "2026-11-26T21:41:47.978Z"
     },
     {
       "name": "MHRA news",
       "url": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency.atom",
-      "at": "2026-11-26T08:32:51.338Z",
+      "at": "2026-11-26T21:41:47.978Z",
       "status": "records retrieved",
       "count": 20,
       "terms": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency.atom",
-      "last_ok_at": "2026-11-26T08:32:51.338Z"
+      "last_ok_at": "2026-11-26T21:41:47.978Z"
     },
     {
       "name": "openFDA drug approvals",
       "url": "https://api.fda.gov/drug/drugsfda.json?search=submissions.submission_type:ORIG+AND+submissions.submission_status:AP&sort=submissions.submission_status_date:desc&limit=80",
-      "at": "2026-11-26T08:32:51.338Z",
+      "at": "2026-11-26T21:41:47.978Z",
       "status": "records retrieved",
       "count": 36,
       "terms": "https://open.fda.gov/apis/drug/drugsfda/",
-      "last_ok_at": "2026-11-26T08:32:51.338Z"
+      "last_ok_at": "2026-11-26T21:41:47.978Z"
     }
   ]
 }
